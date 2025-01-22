@@ -1,0 +1,75 @@
+<div class="calendar">
+  <div class="header">
+    <button (click)="previousWeek()">Poprzedni tydzień</button>
+    <button (click)="nextWeek()">Następny tydzień</button>
+  </div>
+  
+  <div class="calendar-grid" (wheel)="handleScroll($event)">
+    <div class="column-headers">
+      <div class="time-header"></div>
+      <div class="day-header" *ngFor="let day of weekDays" [class.current-day]="isCurrentDay(day)" [class.absence-day]="isAbsenceDay(day)">
+        <div class="day-name">{{ day | date:'EEEE' }}</div>
+        <div class="day-date">{{ day | date:'dd.MM.yyyy' }}</div>
+        <div class="consultations-count">
+          Konsultacje: {{ getConsultationsCount(day) }}
+        </div>
+      </div>
+    </div>
+
+    <div class="time-slots">
+      <ng-container *ngFor="let time of timeSlots">
+        <div class="time-row">
+          <div class="time-label">{{ time }}</div>
+          <ng-container *ngFor="let day of weekDays">
+            <div class="slot" 
+                [class.current-slot]="isCurrentTimeSlot(day, time)"
+                [class.current-time-slot]="isCurrentTimeSlot(day, time)"
+                [class.past-slot]="isPastSlot(day, time)">
+              <ng-container *ngFor="let slot of getSlotsForDayAndTime(day, time)">
+                <div class="appointment" 
+                   [class.reserved]="isReserved(slot)"
+                   [class.available]="!isReserved(slot)"
+                   [class.cancelled]="slot.status === 'odwołany'"
+                   [class.was-reserved]="slot.status === 'odwołany' && slot.typKonsultacji"
+                   [class.past-appointment]="isPastSlot(day, time)"
+                   [style.background-color]="getSlotColor(slot)"
+                   [matTooltip]="getTooltipContent(slot)"
+                   matTooltipClass="multiline-tooltip"
+                   (click)="onSlotClick(slot)">
+                  <div class="appointment-details">
+                    <ng-container *ngIf="slot.status === 'zarezerwowany' || (slot.status === 'odwołany' && slot.typKonsultacji)">
+                      <div>{{ slot.typKonsultacji }}</div>
+                      <div>{{ slot.pacjent?.imie }} {{ slot.pacjent?.nazwisko }}</div>
+                    </ng-container>
+                    <ng-container *ngIf="slot.status === 'odwołany' && !slot.typKonsultacji">
+                      <div>Odwołane</div>
+                    </ng-container>
+                    <ng-container *ngIf="slot.status === 'wolny'">
+                      <div>Dostępne miejsce</div>
+                    </ng-container>
+                  </div>
+                </div>
+              </ng-container>
+            </div>
+          </ng-container>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+
+  <div class="footer">
+    <label>
+      Godziny przyjęć:
+      <input type="range" 
+             [min]="0" 
+             [max]="24" 
+             step="1" 
+             [value]="startHour" 
+             (input)="updateHours($event)">
+      {{ startHour | number:'2.0-0' }}:00 - {{ endHour | number:'2.0-0' }}:00
+    </label>
+    <button routerLink="/schedule">Zarządzaj harmonogramem</button>
+  </div>
+  
+  
+</div>

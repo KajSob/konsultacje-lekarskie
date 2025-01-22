@@ -1,0 +1,7800 @@
+{
+  "absencje": [
+    {
+      "id": "4ad9",
+      "dataOd": "2025-01-26",
+      "dataDo": "2025-01-28",
+      "powod": "jee"
+    },
+    {
+      "id": "2656",
+      "dataOd": "2025-02-12",
+      "dataDo": "2025-02-16",
+      "powod": ""
+    },
+    {
+      "id": "06b9",
+      "dataOd": "2025-01-30",
+      "dataDo": "2025-01-30",
+      "powod": "odwiedziny"
+    },
+    {
+      "id": "3385",
+      "dataOd": "2025-02-17",
+      "dataDo": "2025-02-23",
+      "powod": "ferie"
+    }
+  ],
+  "harmonogram": [
+    {
+      "id": "1157",
+      "data": "2025-01-13",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "11cd",
+      "data": "2025-01-14",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b146",
+      "data": "2025-01-14",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "cccb",
+      "data": "2025-01-14",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "31b1",
+      "data": "2025-01-14",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "600a",
+      "data": "2025-01-14",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ef7a",
+      "data": "2025-01-14",
+      "godzina": "17:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "12e7",
+      "data": "2025-01-14",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a3e7",
+      "data": "2025-01-14",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e0bb",
+      "data": "2025-01-14",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5d7b",
+      "data": "2025-01-14",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ca69",
+      "data": "2025-01-14",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9fc9",
+      "data": "2025-01-14",
+      "godzina": "20:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d899",
+      "data": "2025-01-16",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a2b7",
+      "data": "2025-01-16",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1cc6",
+      "data": "2025-01-16",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "cc17",
+      "data": "2025-01-16",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ef1d",
+      "data": "2025-01-16",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "048d",
+      "data": "2025-01-13",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2118",
+      "data": "2025-01-16",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a9be",
+      "data": "2025-01-16",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6071",
+      "data": "2025-01-16",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "cd76",
+      "data": "2025-01-16",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "509b",
+      "data": "2025-01-16",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d403",
+      "data": "2025-01-16",
+      "godzina": "17:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2209",
+      "data": "2025-01-16",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "67a6",
+      "data": "2025-01-16",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "eb24",
+      "data": "2025-01-16",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5be0",
+      "data": "2025-01-13",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ee92",
+      "data": "2025-01-16",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ec26",
+      "data": "2025-01-16",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "66df",
+      "data": "2025-01-16",
+      "godzina": "20:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1787",
+      "data": "2025-01-20",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5f10",
+      "data": "2025-01-20",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "edd2",
+      "data": "2025-01-20",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "28f5",
+      "data": "2025-01-20",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "72e6",
+      "data": "2025-01-20",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c8e1",
+      "data": "2025-01-20",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f0c0",
+      "data": "2025-01-20",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c880",
+      "data": "2025-01-13",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "845f",
+      "data": "2025-01-20",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "cd88",
+      "data": "2025-01-20",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d3be",
+      "data": "2025-01-20",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "173a",
+      "data": "2025-01-20",
+      "godzina": "17:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "74fb",
+      "data": "2025-01-20",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0a85",
+      "data": "2025-01-20",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0372",
+      "data": "2025-01-20",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5dd7",
+      "data": "2025-01-20",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "fa8e",
+      "data": "2025-01-20",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "28da",
+      "data": "2025-01-13",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5052",
+      "data": "2025-01-20",
+      "godzina": "20:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "cd58",
+      "data": "2025-01-21",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e20d",
+      "data": "2025-01-21",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b2c6",
+      "data": "2025-01-21",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2852",
+      "data": "2025-01-21",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a95e",
+      "data": "2025-01-21",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "43ec",
+      "data": "2025-01-21",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5ac3",
+      "data": "2025-01-21",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9dbc",
+      "data": "2025-01-21",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8419",
+      "data": "2025-01-21",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "719f",
+      "data": "2025-01-13",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a0be",
+      "data": "2025-01-21",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "07f3",
+      "data": "2025-01-21",
+      "godzina": "17:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "59d9",
+      "data": "2025-01-21",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "608c",
+      "data": "2025-01-21",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a62a",
+      "data": "2025-01-21",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "bc4c",
+      "data": "2025-01-21",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "be88",
+      "data": "2025-01-21",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ef82",
+      "data": "2025-01-21",
+      "godzina": "20:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "62e2",
+      "data": "2025-01-23",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f19d",
+      "data": "2025-01-23",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c90a",
+      "data": "2025-01-23",
+      "godzina": "10:00",
+      "status": "zarezerwowany",
+      "typKonsultacji": "recepta",
+      "pacjent": {
+        "imie": "Damian",
+        "nazwisko": "Grotto",
+        "plec": "mężczyzna",
+        "wiek": 2
+      },
+      "informacje": "nie wie"
+    },
+    {
+      "id": "5863",
+      "data": "2025-01-23",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "095d",
+      "data": "2025-01-23",
+      "godzina": "11:00",
+      "status": "zarezerwowany",
+      "typKonsultacji": "pierwsza wizyta",
+      "pacjent": {
+        "imie": "Maciek",
+        "nazwisko": "Fukaj",
+        "plec": "mężczyzna",
+        "wiek": 89
+      },
+      "informacje": "ból brzucha"
+    },
+    {
+      "id": "42d3",
+      "data": "2025-01-23",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5f48",
+      "data": "2025-01-23",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d6a9",
+      "data": "2025-01-13",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "924b",
+      "data": "2025-01-23",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a03f",
+      "data": "2025-01-23",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a450",
+      "data": "2025-01-23",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "61c5",
+      "data": "2025-01-23",
+      "godzina": "17:00",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta kontrolna",
+      "pacjent": {
+        "imie": "Kacper",
+        "nazwisko": "Arambel",
+        "plec": "mężczyzna",
+        "wiek": 22
+      },
+      "informacje": "migrena"
+    },
+    {
+      "id": "969c",
+      "data": "2025-01-23",
+      "godzina": "17:30",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta kontrolna",
+      "pacjent": {
+        "imie": "Kacper",
+        "nazwisko": "Arambel",
+        "plec": "mężczyzna",
+        "wiek": 22
+      },
+      "informacje": "migrena"
+    },
+    {
+      "id": "2dc0",
+      "data": "2025-01-23",
+      "godzina": "18:00",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta kontrolna",
+      "pacjent": {
+        "imie": "Kacper",
+        "nazwisko": "Arambel",
+        "plec": "mężczyzna",
+        "wiek": 22
+      },
+      "informacje": "migrena"
+    },
+    {
+      "id": "ef49",
+      "data": "2025-01-23",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0cb9",
+      "data": "2025-01-23",
+      "godzina": "19:00",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta nagła",
+      "pacjent": {
+        "imie": "Gizmo",
+        "nazwisko": "Wafel",
+        "plec": "mężczyzna",
+        "wiek": 23
+      },
+      "informacje": "pogryzienia"
+    },
+    {
+      "id": "8b88",
+      "data": "2025-01-23",
+      "godzina": "19:30",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta nagła",
+      "pacjent": {
+        "imie": "Gizmo",
+        "nazwisko": "Wafel",
+        "plec": "mężczyzna",
+        "wiek": 23
+      },
+      "informacje": "pogryzienia"
+    },
+    {
+      "id": "19e9",
+      "data": "2025-01-23",
+      "godzina": "20:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2020",
+      "data": "2025-01-27",
+      "godzina": "09:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "2f82",
+      "data": "2025-01-27",
+      "godzina": "09:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "d649",
+      "data": "2025-01-27",
+      "godzina": "10:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "57b9",
+      "data": "2025-01-13",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "56c5",
+      "data": "2025-01-27",
+      "godzina": "10:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "0899",
+      "data": "2025-01-27",
+      "godzina": "11:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "9ca9",
+      "data": "2025-01-27",
+      "godzina": "11:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "62ec",
+      "data": "2025-01-27",
+      "godzina": "15:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "9bda",
+      "data": "2025-01-27",
+      "godzina": "15:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "e342",
+      "data": "2025-01-27",
+      "godzina": "16:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "6050",
+      "data": "2025-01-27",
+      "godzina": "16:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "6a98",
+      "data": "2025-01-27",
+      "godzina": "17:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "e4e8",
+      "data": "2025-01-27",
+      "godzina": "17:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "6290",
+      "data": "2025-01-27",
+      "godzina": "18:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "2922",
+      "data": "2025-01-27",
+      "godzina": "18:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "3d13",
+      "data": "2025-01-27",
+      "godzina": "19:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "026f",
+      "data": "2025-01-27",
+      "godzina": "19:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "dcf7",
+      "data": "2025-01-27",
+      "godzina": "20:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "6910",
+      "data": "2025-01-13",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8c9d",
+      "data": "2025-01-28",
+      "godzina": "09:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "e519",
+      "data": "2025-01-28",
+      "godzina": "09:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "0295",
+      "data": "2025-01-28",
+      "godzina": "10:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "7068",
+      "data": "2025-01-28",
+      "godzina": "10:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "d4ee",
+      "data": "2025-01-28",
+      "godzina": "11:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "d23a",
+      "data": "2025-01-28",
+      "godzina": "11:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "dc21",
+      "data": "2025-01-28",
+      "godzina": "15:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "c648",
+      "data": "2025-01-28",
+      "godzina": "15:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "3e3b",
+      "data": "2025-01-28",
+      "godzina": "16:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "aba3",
+      "data": "2025-01-28",
+      "godzina": "16:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "54ca",
+      "data": "2025-01-13",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "14a3",
+      "data": "2025-01-28",
+      "godzina": "17:00",
+      "status": "odwołany",
+      "typKonsultacji": "pierwsza wizyta",
+      "pacjent": {
+        "imie": "Karol",
+        "nazwisko": "Gigant",
+        "plec": "mężczyzna",
+        "wiek": 23
+      },
+      "informacje": "ból głowy\nAbsencja: jee"
+    },
+    {
+      "id": "e29b",
+      "data": "2025-01-13",
+      "godzina": "17:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "58a9",
+      "data": "2025-01-28",
+      "godzina": "17:30",
+      "status": "odwołany",
+      "typKonsultacji": "pierwsza wizyta",
+      "pacjent": {
+        "imie": "Karol",
+        "nazwisko": "Gigant",
+        "plec": "mężczyzna",
+        "wiek": 23
+      },
+      "informacje": "ból głowy\nAbsencja: jee"
+    },
+    {
+      "id": "a9db",
+      "data": "2025-01-28",
+      "godzina": "18:00",
+      "status": "odwołany",
+      "typKonsultacji": "pierwsza wizyta",
+      "pacjent": {
+        "imie": "Karol",
+        "nazwisko": "Gigant",
+        "plec": "mężczyzna",
+        "wiek": 23
+      },
+      "informacje": "ból głowy\nAbsencja: jee"
+    },
+    {
+      "id": "4111",
+      "data": "2025-01-28",
+      "godzina": "18:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "4d57",
+      "data": "2025-01-28",
+      "godzina": "19:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "29fb",
+      "data": "2025-01-28",
+      "godzina": "19:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "39bf",
+      "data": "2025-01-28",
+      "godzina": "20:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: jee"
+    },
+    {
+      "id": "2ca5",
+      "data": "2025-01-30",
+      "godzina": "09:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: odwiedziny"
+    },
+    {
+      "id": "47ad",
+      "data": "2025-01-30",
+      "godzina": "09:30",
+      "status": "odwołany",
+      "typKonsultacji": "wizyta kontrolna",
+      "pacjent": {
+        "imie": "Paweł",
+        "nazwisko": "Gruz",
+        "plec": "mężczyzna",
+        "wiek": 60
+      },
+      "informacje": "odwiedziny\nAbsencja: odwiedziny"
+    },
+    {
+      "id": "4866",
+      "data": "2025-01-30",
+      "godzina": "10:00",
+      "status": "odwołany",
+      "typKonsultacji": "wizyta kontrolna",
+      "pacjent": {
+        "imie": "Paweł",
+        "nazwisko": "Gruz",
+        "plec": "mężczyzna",
+        "wiek": 60
+      },
+      "informacje": "odwiedziny\nAbsencja: odwiedziny"
+    },
+    {
+      "id": "9771",
+      "data": "2025-01-13",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "78a9",
+      "data": "2025-01-30",
+      "godzina": "10:30",
+      "status": "odwołany",
+      "typKonsultacji": "wizyta kontrolna",
+      "pacjent": {
+        "imie": "Paweł",
+        "nazwisko": "Gruz",
+        "plec": "mężczyzna",
+        "wiek": 60
+      },
+      "informacje": "odwiedziny\nAbsencja: odwiedziny"
+    },
+    {
+      "id": "549f",
+      "data": "2025-01-30",
+      "godzina": "11:00",
+      "status": "odwołany",
+      "typKonsultacji": "wizyta kontrolna",
+      "pacjent": {
+        "imie": "Paweł",
+        "nazwisko": "Gruz",
+        "plec": "mężczyzna",
+        "wiek": 60
+      },
+      "informacje": "odwiedziny\nAbsencja: odwiedziny"
+    },
+    {
+      "id": "9394",
+      "data": "2025-01-30",
+      "godzina": "11:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: odwiedziny"
+    },
+    {
+      "id": "be3c",
+      "data": "2025-01-30",
+      "godzina": "15:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: odwiedziny"
+    },
+    {
+      "id": "f525",
+      "data": "2025-01-30",
+      "godzina": "15:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: odwiedziny"
+    },
+    {
+      "id": "3501",
+      "data": "2025-01-30",
+      "godzina": "16:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: odwiedziny"
+    },
+    {
+      "id": "9697",
+      "data": "2025-01-30",
+      "godzina": "16:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: odwiedziny"
+    },
+    {
+      "id": "9006",
+      "data": "2025-01-30",
+      "godzina": "17:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: odwiedziny"
+    },
+    {
+      "id": "901f",
+      "data": "2025-01-30",
+      "godzina": "17:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: odwiedziny"
+    },
+    {
+      "id": "14b9",
+      "data": "2025-01-30",
+      "godzina": "18:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: odwiedziny"
+    },
+    {
+      "id": "d1bf",
+      "data": "2025-01-30",
+      "godzina": "18:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: odwiedziny"
+    },
+    {
+      "id": "294d",
+      "data": "2025-01-30",
+      "godzina": "19:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: odwiedziny"
+    },
+    {
+      "id": "9e97",
+      "data": "2025-01-30",
+      "godzina": "19:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: odwiedziny"
+    },
+    {
+      "id": "4294",
+      "data": "2025-01-30",
+      "godzina": "20:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: odwiedziny"
+    },
+    {
+      "id": "2c20",
+      "data": "2025-01-13",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1b86",
+      "data": "2025-01-13",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e702",
+      "data": "2025-01-13",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e159",
+      "data": "2025-01-13",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "dcb5",
+      "data": "2025-01-13",
+      "godzina": "20:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5613",
+      "data": "2025-01-14",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c840",
+      "data": "2025-01-14",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f775",
+      "data": "2025-01-14",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4188",
+      "data": "2025-01-14",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "13a6",
+      "data": "2025-01-14",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5ff1",
+      "data": "2025-02-01",
+      "godzina": "04:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "70dc",
+      "data": "2025-02-01",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "85a0",
+      "data": "2025-02-01",
+      "godzina": "13:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e7fb",
+      "data": "2025-02-01",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "802c",
+      "data": "2025-02-01",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f94d",
+      "data": "2025-02-01",
+      "godzina": "05:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c5ee",
+      "data": "2025-02-01",
+      "godzina": "05:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "af8a",
+      "data": "2025-02-01",
+      "godzina": "06:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "247f",
+      "data": "2025-02-01",
+      "godzina": "06:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d23b",
+      "data": "2025-02-01",
+      "godzina": "07:00",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta nagła",
+      "pacjent": {
+        "imie": "Marek",
+        "nazwisko": "Ligma",
+        "plec": "mężczyzna",
+        "wiek": 32
+      },
+      "informacje": "mam ligme"
+    },
+    {
+      "id": "53eb",
+      "data": "2025-02-01",
+      "godzina": "07:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f94b",
+      "data": "2025-02-01",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "bfaf",
+      "data": "2025-02-01",
+      "godzina": "08:30",
+      "status": "zarezerwowany",
+      "typKonsultacji": "recepta",
+      "pacjent": {
+        "imie": "Liza",
+        "nazwisko": "Dzwoł",
+        "plec": "kobieta",
+        "wiek": 25
+      },
+      "informacje": "standardzik"
+    },
+    {
+      "id": "34e8",
+      "data": "2025-02-01",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4899",
+      "data": "2025-02-01",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6605",
+      "data": "2025-02-01",
+      "godzina": "10:00",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta nagła",
+      "pacjent": {
+        "imie": "Baltazar",
+        "nazwisko": "Gąbka",
+        "plec": "mężczyzna",
+        "wiek": 16
+      },
+      "informacje": "zieje ogniem"
+    },
+    {
+      "id": "a30a",
+      "data": "2025-02-01",
+      "godzina": "10:30",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta nagła",
+      "pacjent": {
+        "imie": "Baltazar",
+        "nazwisko": "Gąbka",
+        "plec": "mężczyzna",
+        "wiek": 16
+      },
+      "informacje": "zieje ogniem"
+    },
+    {
+      "id": "4ec2",
+      "data": "2025-02-01",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "196c",
+      "data": "2025-02-01",
+      "godzina": "11:30",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta nagła",
+      "pacjent": {
+        "imie": "Baltazar",
+        "nazwisko": "Gąbka",
+        "plec": "mężczyzna",
+        "wiek": 16
+      },
+      "informacje": "zieje ogniem"
+    },
+    {
+      "id": "bc15",
+      "data": "2025-02-01",
+      "godzina": "12:00",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta nagła",
+      "pacjent": {
+        "imie": "Baltazar",
+        "nazwisko": "Gąbka",
+        "plec": "mężczyzna",
+        "wiek": 16
+      },
+      "informacje": "zieje ogniem"
+    },
+    {
+      "id": "c75d",
+      "data": "2025-02-10",
+      "godzina": "03:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b0e8",
+      "data": "2025-02-12",
+      "godzina": "05:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "8b68",
+      "data": "2025-02-12",
+      "godzina": "06:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "8d03",
+      "data": "2025-02-12",
+      "godzina": "06:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "329b",
+      "data": "2025-02-12",
+      "godzina": "07:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "b94d",
+      "data": "2025-02-12",
+      "godzina": "07:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "b2d5",
+      "data": "2025-02-12",
+      "godzina": "08:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "1757",
+      "data": "2025-02-12",
+      "godzina": "08:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "589d",
+      "data": "2025-02-12",
+      "godzina": "09:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "06a5",
+      "data": "2025-02-12",
+      "godzina": "09:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "e919",
+      "data": "2025-02-12",
+      "godzina": "10:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "751d",
+      "data": "2025-02-12",
+      "godzina": "10:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "15aa",
+      "data": "2025-02-12",
+      "godzina": "11:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "62ab",
+      "data": "2025-02-12",
+      "godzina": "11:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "8e0a",
+      "data": "2025-02-12",
+      "godzina": "12:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "afc6",
+      "data": "2025-02-12",
+      "godzina": "12:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "e3ae",
+      "data": "2025-02-10",
+      "godzina": "03:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d067",
+      "data": "2025-02-12",
+      "godzina": "16:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "5615",
+      "data": "2025-02-12",
+      "godzina": "16:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "d169",
+      "data": "2025-02-10",
+      "godzina": "04:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "08e7",
+      "data": "2025-02-12",
+      "godzina": "17:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "95f6",
+      "data": "2025-02-12",
+      "godzina": "17:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "5d7a",
+      "data": "2025-02-12",
+      "godzina": "18:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "f40d",
+      "data": "2025-02-10",
+      "godzina": "04:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f94e",
+      "data": "2025-02-12",
+      "godzina": "18:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "2877",
+      "data": "2025-02-12",
+      "godzina": "19:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "e7d4",
+      "data": "2025-02-12",
+      "godzina": "19:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "5cef",
+      "data": "2025-02-13",
+      "godzina": "03:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "835a",
+      "data": "2025-02-13",
+      "godzina": "03:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "d193",
+      "data": "2025-02-13",
+      "godzina": "04:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "19ba",
+      "data": "2025-02-13",
+      "godzina": "04:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "fc81",
+      "data": "2025-02-13",
+      "godzina": "05:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "e567",
+      "data": "2025-02-13",
+      "godzina": "05:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "f5b1",
+      "data": "2025-02-13",
+      "godzina": "06:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "3be6",
+      "data": "2025-02-13",
+      "godzina": "06:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "2015",
+      "data": "2025-02-13",
+      "godzina": "07:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "175a",
+      "data": "2025-02-13",
+      "godzina": "07:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "cf40",
+      "data": "2025-02-13",
+      "godzina": "08:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "abab",
+      "data": "2025-02-13",
+      "godzina": "08:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "d6aa",
+      "data": "2025-02-13",
+      "godzina": "09:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "93a2",
+      "data": "2025-02-13",
+      "godzina": "09:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "469e",
+      "data": "2025-02-13",
+      "godzina": "10:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "9ff7",
+      "data": "2025-02-13",
+      "godzina": "10:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "6f38",
+      "data": "2025-02-13",
+      "godzina": "11:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "df34",
+      "data": "2025-02-13",
+      "godzina": "11:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "d55c",
+      "data": "2025-02-13",
+      "godzina": "12:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "7ce2",
+      "data": "2025-02-13",
+      "godzina": "12:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "25eb",
+      "data": "2025-02-13",
+      "godzina": "16:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "7833",
+      "data": "2025-02-13",
+      "godzina": "16:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "b3b2",
+      "data": "2025-02-13",
+      "godzina": "17:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "765e",
+      "data": "2025-02-10",
+      "godzina": "05:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8044",
+      "data": "2025-02-13",
+      "godzina": "17:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "966b",
+      "data": "2025-02-13",
+      "godzina": "18:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "5da7",
+      "data": "2025-02-13",
+      "godzina": "18:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "3d2c",
+      "data": "2025-02-13",
+      "godzina": "19:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "a9c0",
+      "data": "2025-02-13",
+      "godzina": "19:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "caa7",
+      "data": "2025-02-16",
+      "godzina": "03:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "a3da",
+      "data": "2025-02-16",
+      "godzina": "03:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "25c7",
+      "data": "2025-02-16",
+      "godzina": "04:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "e7c7",
+      "data": "2025-02-16",
+      "godzina": "04:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "2f66",
+      "data": "2025-02-16",
+      "godzina": "05:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "472a",
+      "data": "2025-02-16",
+      "godzina": "05:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "67f0",
+      "data": "2025-02-16",
+      "godzina": "06:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "7b6f",
+      "data": "2025-02-16",
+      "godzina": "06:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "d6b8",
+      "data": "2025-02-16",
+      "godzina": "07:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "dfe7",
+      "data": "2025-02-16",
+      "godzina": "07:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "f375",
+      "data": "2025-02-10",
+      "godzina": "05:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3423",
+      "data": "2025-02-16",
+      "godzina": "08:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "7da8",
+      "data": "2025-02-16",
+      "godzina": "08:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "2546",
+      "data": "2025-02-16",
+      "godzina": "09:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "88e6",
+      "data": "2025-02-16",
+      "godzina": "09:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "42c6",
+      "data": "2025-02-16",
+      "godzina": "10:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "951e",
+      "data": "2025-02-16",
+      "godzina": "10:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "1eb9",
+      "data": "2025-02-16",
+      "godzina": "11:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "d346",
+      "data": "2025-02-16",
+      "godzina": "11:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "ede5",
+      "data": "2025-02-16",
+      "godzina": "12:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "c5e4",
+      "data": "2025-02-16",
+      "godzina": "12:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "37eb",
+      "data": "2025-02-16",
+      "godzina": "16:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "102d",
+      "data": "2025-02-16",
+      "godzina": "16:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "92c8",
+      "data": "2025-02-16",
+      "godzina": "17:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "affa",
+      "data": "2025-02-16",
+      "godzina": "17:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "7cd7",
+      "data": "2025-02-16",
+      "godzina": "18:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "749f",
+      "data": "2025-02-16",
+      "godzina": "18:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "af22",
+      "data": "2025-02-16",
+      "godzina": "19:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "70cd",
+      "data": "2025-02-16",
+      "godzina": "19:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "f595",
+      "data": "2025-02-17",
+      "godzina": "03:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "dd7b",
+      "data": "2025-02-17",
+      "godzina": "03:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "9929",
+      "data": "2025-02-17",
+      "godzina": "04:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "1974",
+      "data": "2025-02-17",
+      "godzina": "04:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "7ffc",
+      "data": "2025-02-17",
+      "godzina": "05:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "76d2",
+      "data": "2025-02-17",
+      "godzina": "05:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "e1e9",
+      "data": "2025-02-17",
+      "godzina": "06:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "f910",
+      "data": "2025-02-17",
+      "godzina": "06:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "1329",
+      "data": "2025-02-17",
+      "godzina": "07:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "44d3",
+      "data": "2025-02-17",
+      "godzina": "07:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "e50c",
+      "data": "2025-02-17",
+      "godzina": "08:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "b375",
+      "data": "2025-02-17",
+      "godzina": "08:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "15e8",
+      "data": "2025-02-17",
+      "godzina": "09:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "4832",
+      "data": "2025-02-17",
+      "godzina": "09:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "4d6b",
+      "data": "2025-02-17",
+      "godzina": "10:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "84f7",
+      "data": "2025-02-17",
+      "godzina": "10:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "29d9",
+      "data": "2025-02-17",
+      "godzina": "11:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "e2f7",
+      "data": "2025-02-17",
+      "godzina": "11:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "046c",
+      "data": "2025-02-17",
+      "godzina": "12:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "ff98",
+      "data": "2025-02-17",
+      "godzina": "12:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "8c20",
+      "data": "2025-02-17",
+      "godzina": "16:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "b31a",
+      "data": "2025-02-17",
+      "godzina": "16:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "583b",
+      "data": "2025-02-17",
+      "godzina": "17:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "68a6",
+      "data": "2025-02-17",
+      "godzina": "17:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "0f9e",
+      "data": "2025-02-17",
+      "godzina": "18:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "e7cc",
+      "data": "2025-02-17",
+      "godzina": "18:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "a0e0",
+      "data": "2025-02-10",
+      "godzina": "06:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6c67",
+      "data": "2025-02-17",
+      "godzina": "19:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "3e08",
+      "data": "2025-02-17",
+      "godzina": "19:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "61bb",
+      "data": "2025-02-19",
+      "godzina": "03:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "f9a3",
+      "data": "2025-02-19",
+      "godzina": "03:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "2bb4",
+      "data": "2025-02-19",
+      "godzina": "04:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "d98a",
+      "data": "2025-02-19",
+      "godzina": "04:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "d1ae",
+      "data": "2025-02-19",
+      "godzina": "05:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "aafd",
+      "data": "2025-02-19",
+      "godzina": "05:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "accf",
+      "data": "2025-02-19",
+      "godzina": "06:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "2038",
+      "data": "2025-02-19",
+      "godzina": "06:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "d0fa",
+      "data": "2025-02-19",
+      "godzina": "07:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "ca28",
+      "data": "2025-02-19",
+      "godzina": "07:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "6f5c",
+      "data": "2025-02-19",
+      "godzina": "08:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "d9c4",
+      "data": "2025-02-19",
+      "godzina": "08:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "e2b6",
+      "data": "2025-02-19",
+      "godzina": "09:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "a598",
+      "data": "2025-02-19",
+      "godzina": "09:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "10ef",
+      "data": "2025-02-19",
+      "godzina": "10:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "838f",
+      "data": "2025-02-19",
+      "godzina": "10:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "fdfa",
+      "data": "2025-02-19",
+      "godzina": "11:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "1f57",
+      "data": "2025-02-19",
+      "godzina": "11:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "8a49",
+      "data": "2025-02-19",
+      "godzina": "12:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "f363",
+      "data": "2025-02-19",
+      "godzina": "12:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "c021",
+      "data": "2025-02-19",
+      "godzina": "16:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "c1e0",
+      "data": "2025-02-19",
+      "godzina": "16:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "6959",
+      "data": "2025-02-19",
+      "godzina": "17:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "9a29",
+      "data": "2025-02-19",
+      "godzina": "17:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "5eef",
+      "data": "2025-02-19",
+      "godzina": "18:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "a8b7",
+      "data": "2025-02-19",
+      "godzina": "18:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "8d9d",
+      "data": "2025-02-19",
+      "godzina": "19:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "4ea7",
+      "data": "2025-02-19",
+      "godzina": "19:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "6850",
+      "data": "2025-02-20",
+      "godzina": "03:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "e10c",
+      "data": "2025-02-20",
+      "godzina": "03:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "90ca",
+      "data": "2025-02-20",
+      "godzina": "04:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "1b5c",
+      "data": "2025-02-20",
+      "godzina": "04:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "99c5",
+      "data": "2025-02-20",
+      "godzina": "05:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "c821",
+      "data": "2025-02-20",
+      "godzina": "05:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "cd33",
+      "data": "2025-02-20",
+      "godzina": "06:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "ce62",
+      "data": "2025-02-20",
+      "godzina": "06:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "30e4",
+      "data": "2025-02-20",
+      "godzina": "07:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "4f19",
+      "data": "2025-02-20",
+      "godzina": "07:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "b620",
+      "data": "2025-02-20",
+      "godzina": "08:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "a46a",
+      "data": "2025-02-20",
+      "godzina": "08:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "648c",
+      "data": "2025-02-20",
+      "godzina": "09:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "ae2f",
+      "data": "2025-02-20",
+      "godzina": "10:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "79fc",
+      "data": "2025-02-20",
+      "godzina": "10:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "0847",
+      "data": "2025-02-20",
+      "godzina": "11:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "db37",
+      "data": "2025-02-20",
+      "godzina": "11:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "dee4",
+      "data": "2025-02-20",
+      "godzina": "12:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "4319",
+      "data": "2025-02-20",
+      "godzina": "12:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "7964",
+      "data": "2025-02-10",
+      "godzina": "07:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9a93",
+      "data": "2025-02-20",
+      "godzina": "16:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "b124",
+      "data": "2025-02-20",
+      "godzina": "16:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "3f25",
+      "data": "2025-02-20",
+      "godzina": "17:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "f962",
+      "data": "2025-02-20",
+      "godzina": "17:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "e102",
+      "data": "2025-02-20",
+      "godzina": "18:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "ae8c",
+      "data": "2025-02-20",
+      "godzina": "18:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "8a31",
+      "data": "2025-02-20",
+      "godzina": "19:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "cb95",
+      "data": "2025-02-20",
+      "godzina": "19:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "7b9f",
+      "data": "2025-02-23",
+      "godzina": "03:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "7947",
+      "data": "2025-02-23",
+      "godzina": "03:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "127b",
+      "data": "2025-02-23",
+      "godzina": "04:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "8304",
+      "data": "2025-02-23",
+      "godzina": "04:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "6cd7",
+      "data": "2025-02-23",
+      "godzina": "05:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "5f53",
+      "data": "2025-02-23",
+      "godzina": "05:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "a691",
+      "data": "2025-02-23",
+      "godzina": "07:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "46b1",
+      "data": "2025-02-23",
+      "godzina": "08:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "e89c",
+      "data": "2025-02-23",
+      "godzina": "08:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "02a5",
+      "data": "2025-02-23",
+      "godzina": "09:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "c705",
+      "data": "2025-02-23",
+      "godzina": "09:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "a216",
+      "data": "2025-02-23",
+      "godzina": "10:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "661f",
+      "data": "2025-02-23",
+      "godzina": "10:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "30be",
+      "data": "2025-02-10",
+      "godzina": "07:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0130",
+      "data": "2025-02-23",
+      "godzina": "11:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "4d2e",
+      "data": "2025-02-23",
+      "godzina": "11:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "b494",
+      "data": "2025-02-23",
+      "godzina": "12:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "f1f4",
+      "data": "2025-02-23",
+      "godzina": "12:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "a91d",
+      "data": "2025-02-23",
+      "godzina": "16:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "3632",
+      "data": "2025-02-23",
+      "godzina": "16:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "c270",
+      "data": "2025-02-23",
+      "godzina": "17:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "91e6",
+      "data": "2025-02-23",
+      "godzina": "17:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "9f44",
+      "data": "2025-02-23",
+      "godzina": "18:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "81c2",
+      "data": "2025-02-23",
+      "godzina": "18:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "9802",
+      "data": "2025-02-23",
+      "godzina": "19:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "2322",
+      "data": "2025-02-23",
+      "godzina": "19:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: ferie"
+    },
+    {
+      "id": "1881",
+      "data": "2025-02-10",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a8fc",
+      "data": "2025-02-10",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "dc9f",
+      "data": "2025-02-10",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b1c3",
+      "data": "2025-02-10",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3435",
+      "data": "2025-02-10",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2510",
+      "data": "2025-02-10",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3512",
+      "data": "2025-02-10",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "55aa",
+      "data": "2025-02-10",
+      "godzina": "17:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "130b",
+      "data": "2025-02-10",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b7ab",
+      "data": "2025-02-10",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b2d5",
+      "data": "2025-02-10",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d617",
+      "data": "2025-02-10",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "aadf",
+      "data": "2025-02-10",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1314",
+      "data": "2025-02-12",
+      "godzina": "03:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "94fa",
+      "data": "2025-02-12",
+      "godzina": "03:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "a055",
+      "data": "2025-02-12",
+      "godzina": "04:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "939a",
+      "data": "2025-02-12",
+      "godzina": "04:30",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "177b",
+      "data": "2025-02-12",
+      "godzina": "05:00",
+      "status": "odwołany",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": "Absencja: "
+    },
+    {
+      "id": "2912",
+      "data": "2025-01-29",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2d6a",
+      "data": "2025-01-29",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2829",
+      "data": "2025-01-29",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0b85",
+      "data": "2025-01-29",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1673",
+      "data": "2025-06-03",
+      "godzina": "05:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0932",
+      "data": "2025-06-03",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2fd7",
+      "data": "2025-06-03",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8c2d",
+      "data": "2025-06-03",
+      "godzina": "05:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1126",
+      "data": "2025-06-03",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "7336",
+      "data": "2025-06-03",
+      "godzina": "06:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3489",
+      "data": "2025-06-03",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "aaf3",
+      "data": "2025-06-03",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5241",
+      "data": "2025-06-04",
+      "godzina": "05:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "7097",
+      "data": "2025-06-04",
+      "godzina": "05:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "cd2b",
+      "data": "2025-06-04",
+      "godzina": "06:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8d27",
+      "data": "2025-06-04",
+      "godzina": "06:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2aa6",
+      "data": "2025-06-04",
+      "godzina": "07:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "15b0",
+      "data": "2025-06-04",
+      "godzina": "07:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "20dc",
+      "data": "2025-06-04",
+      "godzina": "13:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "fa51",
+      "data": "2025-06-04",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "af24",
+      "data": "2025-06-04",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3fc6",
+      "data": "2025-06-03",
+      "godzina": "06:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "134c",
+      "data": "2025-06-04",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "56c8",
+      "data": "2025-06-04",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "46fb",
+      "data": "2025-06-04",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b7d4",
+      "data": "2025-06-04",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9d15",
+      "data": "2025-06-04",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d516",
+      "data": "2025-06-04",
+      "godzina": "17:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "608d",
+      "data": "2025-06-03",
+      "godzina": "07:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "23a9",
+      "data": "2025-06-04",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "17b6",
+      "data": "2025-06-04",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8f64",
+      "data": "2025-06-04",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4bc3",
+      "data": "2025-06-04",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "cead",
+      "data": "2025-06-04",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "46b7",
+      "data": "2025-06-05",
+      "godzina": "06:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f5aa",
+      "data": "2025-06-05",
+      "godzina": "06:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8a2a",
+      "data": "2025-06-05",
+      "godzina": "07:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e580",
+      "data": "2025-06-05",
+      "godzina": "07:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "cc51",
+      "data": "2025-06-05",
+      "godzina": "13:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "efc1",
+      "data": "2025-06-05",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6450",
+      "data": "2025-06-05",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4cff",
+      "data": "2025-06-05",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "36fc",
+      "data": "2025-06-05",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "64f5",
+      "data": "2025-06-05",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "99fa",
+      "data": "2025-06-05",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "10e0",
+      "data": "2025-06-05",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5fb6",
+      "data": "2025-06-05",
+      "godzina": "17:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "15bc",
+      "data": "2025-06-05",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c134",
+      "data": "2025-06-05",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8ea6",
+      "data": "2025-06-05",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5e42",
+      "data": "2025-06-05",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8fae",
+      "data": "2025-06-05",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "09b0",
+      "data": "2025-06-10",
+      "godzina": "05:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c755",
+      "data": "2025-06-10",
+      "godzina": "05:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4f3a",
+      "data": "2025-06-03",
+      "godzina": "07:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b861",
+      "data": "2025-06-10",
+      "godzina": "06:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d126",
+      "data": "2025-06-10",
+      "godzina": "06:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b1d2",
+      "data": "2025-06-10",
+      "godzina": "07:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8596",
+      "data": "2025-06-10",
+      "godzina": "07:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "7c47",
+      "data": "2025-06-10",
+      "godzina": "13:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b3dc",
+      "data": "2025-06-10",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c76b",
+      "data": "2025-06-10",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0754",
+      "data": "2025-06-10",
+      "godzina": "17:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8a2b",
+      "data": "2025-06-10",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1f9b",
+      "data": "2025-06-10",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5eb1",
+      "data": "2025-06-10",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "55c7",
+      "data": "2025-06-10",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d5a8",
+      "data": "2025-06-10",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8e2e",
+      "data": "2025-06-03",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e68b",
+      "data": "2025-06-11",
+      "godzina": "05:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c10d",
+      "data": "2025-06-03",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "750b",
+      "data": "2025-06-11",
+      "godzina": "05:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "41e5",
+      "data": "2025-06-11",
+      "godzina": "06:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "62bb",
+      "data": "2025-06-11",
+      "godzina": "06:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c2be",
+      "data": "2025-06-11",
+      "godzina": "07:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f423",
+      "data": "2025-06-11",
+      "godzina": "07:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4aeb",
+      "data": "2025-06-11",
+      "godzina": "13:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "179e",
+      "data": "2025-06-11",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3868",
+      "data": "2025-06-11",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "195c",
+      "data": "2025-06-11",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "14c1",
+      "data": "2025-06-11",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6764",
+      "data": "2025-06-11",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "52ec",
+      "data": "2025-06-11",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b01f",
+      "data": "2025-06-11",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1f27",
+      "data": "2025-06-11",
+      "godzina": "17:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b146",
+      "data": "2025-06-11",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4f1e",
+      "data": "2025-06-11",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6561",
+      "data": "2025-06-11",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ff27",
+      "data": "2025-06-11",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "daa9",
+      "data": "2025-06-11",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "fdec",
+      "data": "2025-06-12",
+      "godzina": "05:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ef7e",
+      "data": "2025-06-03",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5de6",
+      "data": "2025-06-12",
+      "godzina": "05:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d71c",
+      "data": "2025-06-12",
+      "godzina": "06:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "03e2",
+      "data": "2025-06-12",
+      "godzina": "06:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "60cb",
+      "data": "2025-06-12",
+      "godzina": "07:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "10d0",
+      "data": "2025-06-03",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f115",
+      "data": "2025-06-12",
+      "godzina": "07:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6bb1",
+      "data": "2025-06-12",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8aa1",
+      "data": "2025-06-12",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "435b",
+      "data": "2025-06-12",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3d9d",
+      "data": "2025-06-12",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "213b",
+      "data": "2025-06-12",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "7ad6",
+      "data": "2025-06-12",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1408",
+      "data": "2025-06-12",
+      "godzina": "17:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6de0",
+      "data": "2025-06-12",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e04c",
+      "data": "2025-06-12",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c2a6",
+      "data": "2025-06-12",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a740",
+      "data": "2025-06-12",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c084",
+      "data": "2025-06-12",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e206",
+      "data": "2025-06-17",
+      "godzina": "05:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1961",
+      "data": "2025-06-17",
+      "godzina": "05:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "fbcd",
+      "data": "2025-06-17",
+      "godzina": "06:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b3e3",
+      "data": "2025-06-17",
+      "godzina": "06:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4512",
+      "data": "2025-06-17",
+      "godzina": "07:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a184",
+      "data": "2025-06-17",
+      "godzina": "07:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b11f",
+      "data": "2025-06-17",
+      "godzina": "13:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "005d",
+      "data": "2025-06-17",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "7fed",
+      "data": "2025-06-17",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9a85",
+      "data": "2025-06-17",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9b7e",
+      "data": "2025-06-17",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5470",
+      "data": "2025-06-17",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4d6b",
+      "data": "2025-06-17",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "af2c",
+      "data": "2025-06-17",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "721b",
+      "data": "2025-06-17",
+      "godzina": "17:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "65d3",
+      "data": "2025-06-17",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1833",
+      "data": "2025-06-17",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "32d6",
+      "data": "2025-06-17",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1ad3",
+      "data": "2025-06-17",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4489",
+      "data": "2025-06-17",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a22f",
+      "data": "2025-06-18",
+      "godzina": "05:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "7dde",
+      "data": "2025-06-18",
+      "godzina": "05:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3323",
+      "data": "2025-06-18",
+      "godzina": "06:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d34b",
+      "data": "2025-06-18",
+      "godzina": "06:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ea9d",
+      "data": "2025-06-18",
+      "godzina": "07:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5c71",
+      "data": "2025-06-18",
+      "godzina": "07:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "79b6",
+      "data": "2025-06-18",
+      "godzina": "13:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0b35",
+      "data": "2025-06-18",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4a29",
+      "data": "2025-06-18",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e378",
+      "data": "2025-06-18",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d63e",
+      "data": "2025-06-03",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "845b",
+      "data": "2025-06-18",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "aa57",
+      "data": "2025-06-03",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1e63",
+      "data": "2025-06-18",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "98fd",
+      "data": "2025-06-18",
+      "godzina": "16:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b996",
+      "data": "2025-06-18",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a4ce",
+      "data": "2025-06-18",
+      "godzina": "17:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5ebb",
+      "data": "2025-06-18",
+      "godzina": "17:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "71e8",
+      "data": "2025-06-18",
+      "godzina": "18:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8ab1",
+      "data": "2025-06-18",
+      "godzina": "18:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6e07",
+      "data": "2025-06-18",
+      "godzina": "19:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f2ad",
+      "data": "2025-06-18",
+      "godzina": "19:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8fdb",
+      "data": "2025-06-19",
+      "godzina": "05:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "13f7",
+      "data": "2025-06-03",
+      "godzina": "16:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c9bc",
+      "data": "2025-06-19",
+      "godzina": "05:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ba8e",
+      "data": "2025-06-19",
+      "godzina": "06:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2423",
+      "data": "2025-06-19",
+      "godzina": "06:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0a06",
+      "data": "2025-01-24",
+      "godzina": "05:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "fe18",
+      "data": "2025-01-24",
+      "godzina": "05:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e131",
+      "data": "2025-01-24",
+      "godzina": "06:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b40f",
+      "data": "2025-01-24",
+      "godzina": "06:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8812",
+      "data": "2025-01-24",
+      "godzina": "07:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "48b7",
+      "data": "2025-01-24",
+      "godzina": "07:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1adb",
+      "data": "2025-01-24",
+      "godzina": "08:00",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta nagła",
+      "pacjent": {
+        "imie": "Grażyna",
+        "nazwisko": "Fąk",
+        "plec": "kobieta",
+        "wiek": 91
+      },
+      "informacje": "wypadek przy fajerwerkach"
+    },
+    {
+      "id": "013b",
+      "data": "2025-01-24",
+      "godzina": "08:30",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta nagła",
+      "pacjent": {
+        "imie": "Grażyna",
+        "nazwisko": "Fąk",
+        "plec": "kobieta",
+        "wiek": 91
+      },
+      "informacje": "wypadek przy fajerwerkach"
+    },
+    {
+      "id": "efa3",
+      "data": "2025-01-24",
+      "godzina": "09:00",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta nagła",
+      "pacjent": {
+        "imie": "Grażyna",
+        "nazwisko": "Fąk",
+        "plec": "kobieta",
+        "wiek": 91
+      },
+      "informacje": "wypadek przy fajerwerkach"
+    },
+    {
+      "id": "c7bd",
+      "data": "2025-01-24",
+      "godzina": "09:30",
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta nagła",
+      "pacjent": {
+        "imie": "Grażyna",
+        "nazwisko": "Fąk",
+        "plec": "kobieta",
+        "wiek": 91
+      },
+      "informacje": "wypadek przy fajerwerkach"
+    },
+    {
+      "id": "4f1c",
+      "data": "2025-01-24",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4749",
+      "data": "2025-01-24",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0f07",
+      "data": "2025-01-24",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "41a9",
+      "data": "2025-07-01",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "bb73",
+      "data": "2025-07-01",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f652",
+      "data": "2025-07-01",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2245",
+      "data": "2025-07-01",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "70d4",
+      "data": "2025-07-01",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f037",
+      "data": "2025-07-01",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6eb3",
+      "data": "2025-07-01",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0734",
+      "data": "2025-07-01",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "746b",
+      "data": "2025-07-01",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3bc9",
+      "data": "2025-07-01",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3887",
+      "data": "2025-07-01",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3e72",
+      "data": "2025-07-01",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9d3d",
+      "data": "2025-07-01",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "667d",
+      "data": "2025-07-01",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "921d",
+      "data": "2025-07-01",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d2d5",
+      "data": "2025-07-02",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "30f9",
+      "data": "2025-07-02",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "906e",
+      "data": "2025-07-02",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ff10",
+      "data": "2025-07-02",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8d49",
+      "data": "2025-07-02",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b195",
+      "data": "2025-07-02",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2d38",
+      "data": "2025-07-02",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5511",
+      "data": "2025-07-02",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "7fdd",
+      "data": "2025-07-02",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "bb2f",
+      "data": "2025-07-02",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9d57",
+      "data": "2025-07-02",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "065f",
+      "data": "2025-07-02",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6c29",
+      "data": "2025-07-02",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1a9e",
+      "data": "2025-07-02",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6872",
+      "data": "2025-07-02",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2050",
+      "data": "2025-07-03",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "24b2",
+      "data": "2025-07-03",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3ce8",
+      "data": "2025-07-03",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "fb5f",
+      "data": "2025-07-03",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d690",
+      "data": "2025-07-03",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0de2",
+      "data": "2025-07-03",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a728",
+      "data": "2025-07-03",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "090a",
+      "data": "2025-07-03",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d9ce",
+      "data": "2025-07-03",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d9cb",
+      "data": "2025-07-03",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "141d",
+      "data": "2025-07-03",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "abae",
+      "data": "2025-07-03",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6b1d",
+      "data": "2025-07-03",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "55c3",
+      "data": "2025-07-03",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ad3f",
+      "data": "2025-07-03",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "34c0",
+      "data": "2025-07-07",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d479",
+      "data": "2025-07-07",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a79e",
+      "data": "2025-07-07",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9932",
+      "data": "2025-07-07",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "570f",
+      "data": "2025-07-07",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c154",
+      "data": "2025-07-07",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "41e0",
+      "data": "2025-07-07",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f6e2",
+      "data": "2025-07-07",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f01a",
+      "data": "2025-07-07",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5aa0",
+      "data": "2025-07-07",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6367",
+      "data": "2025-07-07",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2c9a",
+      "data": "2025-07-07",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2ce5",
+      "data": "2025-07-07",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "72b4",
+      "data": "2025-07-07",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a0a0",
+      "data": "2025-07-07",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "35b1",
+      "data": "2025-07-08",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d37a",
+      "data": "2025-07-08",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "584d",
+      "data": "2025-07-08",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "833b",
+      "data": "2025-07-08",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8bb6",
+      "data": "2025-07-08",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5e2d",
+      "data": "2025-07-08",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9dc0",
+      "data": "2025-07-08",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "02eb",
+      "data": "2025-07-08",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "7e47",
+      "data": "2025-07-08",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "fb2e",
+      "data": "2025-07-08",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9b6c",
+      "data": "2025-07-08",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "96e2",
+      "data": "2025-07-08",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b079",
+      "data": "2025-07-08",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "faf0",
+      "data": "2025-07-08",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1d38",
+      "data": "2025-07-08",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d386",
+      "data": "2025-07-09",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2fdd",
+      "data": "2025-07-09",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c620",
+      "data": "2025-07-09",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d224",
+      "data": "2025-07-09",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "35ba",
+      "data": "2025-07-09",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "775f",
+      "data": "2025-07-09",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1bb7",
+      "data": "2025-07-09",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "25d1",
+      "data": "2025-07-09",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "dca4",
+      "data": "2025-07-09",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3a22",
+      "data": "2025-07-09",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9c88",
+      "data": "2025-07-09",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9aae",
+      "data": "2025-07-09",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "52d8",
+      "data": "2025-07-09",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8e62",
+      "data": "2025-07-09",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e6bf",
+      "data": "2025-07-09",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a06e",
+      "data": "2025-07-10",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2103",
+      "data": "2025-07-10",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "00b8",
+      "data": "2025-07-10",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8781",
+      "data": "2025-07-10",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "215b",
+      "data": "2025-07-10",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "793b",
+      "data": "2025-07-10",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "21b9",
+      "data": "2025-07-10",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5529",
+      "data": "2025-07-10",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "bd4d",
+      "data": "2025-07-10",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "66e6",
+      "data": "2025-07-10",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "805a",
+      "data": "2025-07-10",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "62b6",
+      "data": "2025-07-10",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c464",
+      "data": "2025-07-10",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6fd8",
+      "data": "2025-07-10",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "7b00",
+      "data": "2025-07-10",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "892f",
+      "data": "2025-07-14",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "dc32",
+      "data": "2025-07-14",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "43b1",
+      "data": "2025-07-14",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b037",
+      "data": "2025-07-14",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8d0f",
+      "data": "2025-07-14",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a318",
+      "data": "2025-07-14",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5cc5",
+      "data": "2025-07-14",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "02eb",
+      "data": "2025-07-14",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "bade",
+      "data": "2025-07-14",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9220",
+      "data": "2025-07-14",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1745",
+      "data": "2025-07-14",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "bb26",
+      "data": "2025-07-14",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "bc9b",
+      "data": "2025-07-14",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d13b",
+      "data": "2025-07-14",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c858",
+      "data": "2025-07-14",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f3ce",
+      "data": "2025-07-15",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "eaa6",
+      "data": "2025-07-15",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b8aa",
+      "data": "2025-07-15",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f1ee",
+      "data": "2025-07-15",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ab0e",
+      "data": "2025-07-15",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "fe39",
+      "data": "2025-07-15",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "000a",
+      "data": "2025-07-15",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1706",
+      "data": "2025-07-15",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8b6b",
+      "data": "2025-07-15",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1659",
+      "data": "2025-07-15",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "77a6",
+      "data": "2025-07-15",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6f75",
+      "data": "2025-07-15",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4fbf",
+      "data": "2025-07-15",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a43c",
+      "data": "2025-07-15",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e15a",
+      "data": "2025-07-15",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3d42",
+      "data": "2025-07-16",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "81c7",
+      "data": "2025-07-16",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1f3e",
+      "data": "2025-07-16",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d309",
+      "data": "2025-07-16",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "06b1",
+      "data": "2025-07-16",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0b35",
+      "data": "2025-07-16",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5840",
+      "data": "2025-07-16",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3483",
+      "data": "2025-07-16",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8cb2",
+      "data": "2025-07-16",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d7c0",
+      "data": "2025-07-16",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "dcb7",
+      "data": "2025-07-16",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d668",
+      "data": "2025-07-16",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6f6f",
+      "data": "2025-07-16",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "80b0",
+      "data": "2025-07-16",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a5dc",
+      "data": "2025-07-16",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1ac8",
+      "data": "2025-07-17",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "7971",
+      "data": "2025-07-17",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "564d",
+      "data": "2025-07-17",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "be73",
+      "data": "2025-07-17",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8926",
+      "data": "2025-07-17",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6a9d",
+      "data": "2025-07-17",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "88d6",
+      "data": "2025-07-17",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ad1a",
+      "data": "2025-07-17",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ce6e",
+      "data": "2025-07-17",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4775",
+      "data": "2025-07-17",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "25bf",
+      "data": "2025-07-17",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "83a8",
+      "data": "2025-07-17",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "84b1",
+      "data": "2025-07-17",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "20a5",
+      "data": "2025-07-17",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4edd",
+      "data": "2025-07-17",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e997",
+      "data": "2025-07-21",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "cc28",
+      "data": "2025-07-21",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "cbea",
+      "data": "2025-07-21",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "40a6",
+      "data": "2025-07-21",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8424",
+      "data": "2025-07-21",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "87ff",
+      "data": "2025-07-21",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5005",
+      "data": "2025-07-21",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2991",
+      "data": "2025-07-21",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ba57",
+      "data": "2025-07-21",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1cab",
+      "data": "2025-07-21",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d104",
+      "data": "2025-07-21",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "293a",
+      "data": "2025-07-21",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "613f",
+      "data": "2025-07-21",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "60b1",
+      "data": "2025-07-21",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ad8e",
+      "data": "2025-07-21",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "54c1",
+      "data": "2025-07-22",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4517",
+      "data": "2025-07-22",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f968",
+      "data": "2025-07-22",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f803",
+      "data": "2025-07-22",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "8d91",
+      "data": "2025-07-22",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "60be",
+      "data": "2025-07-22",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e5d5",
+      "data": "2025-07-22",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ee13",
+      "data": "2025-07-22",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6238",
+      "data": "2025-07-22",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5a7d",
+      "data": "2025-07-22",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9286",
+      "data": "2025-07-22",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "75a8",
+      "data": "2025-07-22",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "54ce",
+      "data": "2025-07-22",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "da42",
+      "data": "2025-07-22",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6d7e",
+      "data": "2025-07-23",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "fea2",
+      "data": "2025-07-23",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "7ad5",
+      "data": "2025-07-23",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b8dd",
+      "data": "2025-07-23",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9987",
+      "data": "2025-07-23",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "458f",
+      "data": "2025-07-23",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1cc8",
+      "data": "2025-07-23",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1e36",
+      "data": "2025-07-23",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "90db",
+      "data": "2025-07-23",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4f8e",
+      "data": "2025-07-23",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5383",
+      "data": "2025-07-23",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "052c",
+      "data": "2025-07-23",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1cd2",
+      "data": "2025-07-23",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1359",
+      "data": "2025-07-23",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "424a",
+      "data": "2025-07-23",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "15da",
+      "data": "2025-07-24",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b2b0",
+      "data": "2025-07-24",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5569",
+      "data": "2025-07-24",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "7bbc",
+      "data": "2025-07-24",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "af92",
+      "data": "2025-07-24",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4e40",
+      "data": "2025-07-24",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2fbc",
+      "data": "2025-07-24",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "89ee",
+      "data": "2025-07-24",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f34c",
+      "data": "2025-07-24",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9371",
+      "data": "2025-07-24",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "439c",
+      "data": "2025-07-24",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9aab",
+      "data": "2025-07-24",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2152",
+      "data": "2025-07-24",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0efc",
+      "data": "2025-07-24",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "53f9",
+      "data": "2025-07-24",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f74d",
+      "data": "2025-07-28",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2abd",
+      "data": "2025-07-28",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2a4f",
+      "data": "2025-07-28",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4ce6",
+      "data": "2025-07-28",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "f9b7",
+      "data": "2025-07-28",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "82f3",
+      "data": "2025-07-28",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1e4f",
+      "data": "2025-07-28",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2cd6",
+      "data": "2025-07-28",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "27d3",
+      "data": "2025-07-28",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "97fc",
+      "data": "2025-07-28",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "7d34",
+      "data": "2025-07-28",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "94fc",
+      "data": "2025-07-28",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "67c2",
+      "data": "2025-07-28",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "126f",
+      "data": "2025-07-28",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4d0c",
+      "data": "2025-07-28",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1566",
+      "data": "2025-07-29",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "80b6",
+      "data": "2025-07-29",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "bd62",
+      "data": "2025-07-29",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "831a",
+      "data": "2025-07-29",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a138",
+      "data": "2025-07-29",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "86d5",
+      "data": "2025-07-29",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4a06",
+      "data": "2025-07-29",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c0b0",
+      "data": "2025-07-29",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a836",
+      "data": "2025-07-29",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "4ed1",
+      "data": "2025-07-29",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c5de",
+      "data": "2025-07-29",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9b82",
+      "data": "2025-07-29",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3636",
+      "data": "2025-07-29",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "52fb",
+      "data": "2025-07-29",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5560",
+      "data": "2025-07-29",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a2d0",
+      "data": "2025-07-30",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9992",
+      "data": "2025-07-30",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "6201",
+      "data": "2025-07-30",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "1982",
+      "data": "2025-07-30",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "84c2",
+      "data": "2025-07-30",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a2f2",
+      "data": "2025-07-30",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a4e5",
+      "data": "2025-07-30",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9e76",
+      "data": "2025-07-30",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "79f5",
+      "data": "2025-07-30",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d400",
+      "data": "2025-07-30",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "37cc",
+      "data": "2025-07-30",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "37ee",
+      "data": "2025-07-30",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "afc5",
+      "data": "2025-07-30",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a395",
+      "data": "2025-07-30",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "2e8d",
+      "data": "2025-07-30",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e808",
+      "data": "2025-07-31",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "94af",
+      "data": "2025-07-31",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "cc99",
+      "data": "2025-07-31",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "d7c2",
+      "data": "2025-07-31",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "87e7",
+      "data": "2025-07-31",
+      "godzina": "10:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "df9c",
+      "data": "2025-07-31",
+      "godzina": "10:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "0cd1",
+      "data": "2025-07-31",
+      "godzina": "11:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "a7bb",
+      "data": "2025-07-31",
+      "godzina": "11:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c812",
+      "data": "2025-07-31",
+      "godzina": "12:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "139e",
+      "data": "2025-07-31",
+      "godzina": "12:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "3cf5",
+      "data": "2025-07-31",
+      "godzina": "13:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "ac95",
+      "data": "2025-07-31",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "9a08",
+      "data": "2025-07-31",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "fbde",
+      "data": "2025-07-31",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "e033",
+      "data": "2025-07-31",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b5c3",
+      "data": "2025-01-25",
+      "godzina": "08:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "cdde",
+      "data": "2025-01-25",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "538d",
+      "data": "2025-01-25",
+      "godzina": "09:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "703f",
+      "data": "2025-01-25",
+      "godzina": "09:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "62f0",
+      "data": "2025-01-25",
+      "godzina": "14:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "5b63",
+      "data": "2025-01-25",
+      "godzina": "14:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "b3ca",
+      "data": "2025-01-25",
+      "godzina": "15:00",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "c7a5",
+      "data": "2025-01-25",
+      "godzina": "15:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    },
+    {
+      "id": "78a7",
+      "data": "2025-07-22",
+      "godzina": "08:30",
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
+    }
+  ]
+}

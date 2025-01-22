@@ -1,6 +1,14 @@
 import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
+import { provideRouter } from '@angular/router';
 import { AppComponent } from './app/app.component';
+import { CalendarComponent } from './app/calendar/calendar.component';
+import { DoctorScheduleComponent } from './app/doctor-schedule/doctor-schedule.component';
 
-bootstrapApplication(AppComponent, appConfig)
-  .catch((err) => console.error(err));
+const routes = [
+  { path: '', component: CalendarComponent }, 
+  { path: 'schedule', component: DoctorScheduleComponent }
+];
+
+bootstrapApplication(AppComponent, {
+  providers: [provideRouter(routes)],
+});

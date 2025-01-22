@@ -1,0 +1,114 @@
+<div class="schedule-container">
+<div class="header">
+  <h2>Zarządzanie harmonogramem</h2>
+  <button class="back-button" routerLink="/">
+    ← Powrót do kalendarza
+  </button>
+</div>
+<div class="message" *ngIf="messageVisible">
+  {{ message }}
+</div>
+  <!-- Harmonogram cykliczny -->
+  <section>
+    <h3>Harmonogram cykliczny</h3>
+    <form (ngSubmit)="zapiszHarmonogramCykliczny()">
+      <div class="date-range">
+        <div class="form-group">
+          <label>Data od:</label>
+          <input type="date" [(ngModel)]="cyklicznyHarmonogram.dataOd" name="dataOd">
+        </div>
+        <div class="form-group">
+          <label>Data do:</label>
+          <input type="date" [(ngModel)]="cyklicznyHarmonogram.dataDo" name="dataDo">
+        </div>
+      </div>
+
+      <div class="weekdays">
+        <div *ngFor="let dzien of dniTygodnia; let i = index" class="weekday-checkbox">
+          <label>
+            <input type="checkbox" [(ngModel)]="cyklicznyHarmonogram.dniTygodnia[i]" [name]="'dzien' + i">
+            {{dzien}}
+          </label>
+        </div>
+      </div>
+
+      <div class="time-ranges">
+        <div *ngFor="let _, let i = index of cyklicznyHarmonogram.godzinyOd" class="time-range">
+          <div class="form-group">
+            <label>Od:</label>
+            <select [(ngModel)]="cyklicznyHarmonogram.godzinyOd[i]" [name]="'godzinaOd' + i">
+              <option *ngFor="let godzina of godziny" [value]="godzina">{{godzina}}</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Do:</label>
+            <select [(ngModel)]="cyklicznyHarmonogram.godzinyDo[i]" [name]="'godzinaDo' + i">
+              <option *ngFor="let godzina of godziny" [value]="godzina">{{godzina}}</option>
+            </select>
+          </div>
+          <button type="button" (click)="usunPrzedzialCzasowyCykliczny(i)" 
+                  *ngIf="cyklicznyHarmonogram.godzinyOd.length > 1">
+            Usuń
+          </button>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button type="button" (click)="dodajPrzedzialCzasowyCykliczny()">Dodaj przedział czasowy</button>
+        <button type="submit">Zapisz harmonogram cykliczny</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Termin jednorazowy -->
+  <section>
+    <h3>Termin jednorazowy</h3>
+    <form (ngSubmit)="zapiszTerminJednorazowy()">
+      <div class="form-group">
+        <label>Data:</label>
+        <input type="date" [(ngModel)]="jednorazowyTermin.data" name="data">
+      </div>
+      <div class="time-range">
+        <div class="form-group">
+          <label>Od:</label>
+          <select [(ngModel)]="jednorazowyTermin.godzinaOd" name="godzinaOd">
+            <option *ngFor="let godzina of godziny" [value]="godzina">{{godzina}}</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Do:</label>
+          <select [(ngModel)]="jednorazowyTermin.godzinaDo" name="godzinaDo">
+            <option *ngFor="let godzina of godziny" [value]="godzina">{{godzina}}</option>
+          </select>
+        </div>
+      </div>
+      <div class="righter">
+        <button type="submit">Zapisz termin jednorazowy</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Absencja -->
+  <section>
+    <h3>Zgłoszenie absencji</h3>
+    <form (ngSubmit)="zapiszAbsencje()">
+      <div class="date-range">
+        <div class="form-group">
+          <label>Data od:</label>
+          <input type="date" [(ngModel)]="absencja.dataOd" name="absencjaOd">
+        </div>
+        <div class="form-group">
+          <label>Data do:</label>
+          <input type="date" [(ngModel)]="absencja.dataDo" name="absencjaDo">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Powód:</label>
+        <textarea [(ngModel)]="absencja.powod" name="powod" rows="4"></textarea>
+      </div>
+      <div class="righter">
+        <button type="submit">Zapisz absencję</button>
+      </div>
+    </form>
+  </section>
+</div>
