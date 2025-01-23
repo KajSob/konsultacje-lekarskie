@@ -17,21 +17,14 @@ export const doctorGuard: CanActivateFn = () => {
   const authService = inject(AuthService);
   const router = inject(Router);
   
-  return authService.getCurrentUser().pipe(
+  return authService.hasRole('doctor').pipe(
     take(1),
-    map(user => {
-      if (!user) {
-        alert('Musisz być zalogowany aby uzyskać dostęp do tej strony');
-        router.navigate(['/']);
-        return false;
-      }
-      
-      if (user.role !== 'doctor' && user.role !== 'admin') {
+    map(canActivate => {
+      if (!canActivate) {
         alert('Tylko lekarz lub administrator ma dostęp do zarządzania harmonogramem');
-        router.navigate(['/']);
+        router.navigate(['']);
         return false;
       }
-      
       return true;
     })
   );
@@ -46,7 +39,7 @@ export const adminGuard: CanActivateFn = () => {
     map(canActivate => {
       if (!canActivate) {
         alert('Brak uprawnień do wyświetlenia tej strony');
-        router.navigate(['/']);
+        router.navigate(['']);
         return false;
       }
       return true;

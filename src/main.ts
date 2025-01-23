@@ -14,10 +14,11 @@ import { getAuth, provideAuth } from '@angular/fire/auth';
 import { environment } from './environments/environment';
 import { provideHttpClient } from '@angular/common/http';
 import { provideAnimations } from '@angular/platform-browser/animations';
+import { doctorGuard } from './app/guards/auth.guard';
 
 const routes = [
   { path: '', component: CalendarComponent }, 
-  { path: 'schedule', component: DoctorScheduleComponent },
+  { path: 'schedule', component: DoctorScheduleComponent , canActivate: [doctorGuard] ,data: { requiresAuth: true }},
   { path: 'login', component: LoginDialogComponent },
   { path: 'register', component: RegisterDialogComponent },
   { path: 'admin', component: AdminPanelComponent, canActivate: [adminGuard] }
