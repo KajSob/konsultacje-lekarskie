@@ -33,7 +33,7 @@ export class DataSourceService {
     return `http://localhost:3000/${endpoint}`;
   }
 
-  // Add the missing methods
+ 
   getHarmonogram(): Observable<any[]> {
     if (this.currentSource.value === 'firebase') {
       return from(get(ref(this.database, 'harmonogram'))).pipe(

@@ -216,12 +216,12 @@ export class ConsultationBookingComponent {
         const currentSlot = this.data.slot;
         let consecutiveSlots = 1;
         
-        // Get current slot time parts
+        
         const [hours, minutes] = currentSlot.godzina.split(':').map(Number);
         const currentMinutes = hours * 60 + minutes;
         
-        // Check next slots
-        for (let i = 1; i <= 6; i++) { // Check up to 6 slots (3 hours)
+        
+        for (let i = 1; i <= 6; i++) {
           const nextMinutes = currentMinutes + (i * 30);
           const nextHour = Math.floor(nextMinutes / 60);
           const nextMinute = nextMinutes % 60;
@@ -261,7 +261,7 @@ export class ConsultationBookingComponent {
         const baseMinutes = hours * 60 + minutes;
         const slotsToUpdate: Harmonogram[] = [];
   
-        // Find all consecutive slots we need to update
+        
         for (let i = 0; i < this.consultationData.durationSlots; i++) {
           const slotMinutes = baseMinutes + (i * 30);
           const slotHour = Math.floor(slotMinutes / 60);
@@ -285,7 +285,7 @@ export class ConsultationBookingComponent {
         }
   
         if (dataSource === 'firebase') {
-          // Firebase - używamy batch update z zachowaniem ID
+          
           const updates: { [key: string]: any } = {};
           
           slotsToUpdate.forEach(slot => {
@@ -307,7 +307,7 @@ export class ConsultationBookingComponent {
               console.error('Error:', error);
             });
         } else {
-          // JSON Server logic remains the same
+          
           const updatePromises = slotsToUpdate.map(slot => 
             this.http.put(`http://localhost:3000/harmonogram/${slot.id}`, slot)
           );
@@ -330,7 +330,7 @@ export class ConsultationBookingComponent {
     const dataSource = localStorage.getItem('dataSource');
     
     if (dataSource === 'firebase') {
-      // First get all slots to find the one we want to update
+      
       from(get(ref(this.database, 'harmonogram'))).pipe(
         map((snapshot: DataSnapshot) => snapshot.val() ? Object.values(snapshot.val()) as Harmonogram[] : [])
       ).subscribe({
@@ -338,7 +338,7 @@ export class ConsultationBookingComponent {
           const slotToUpdate = slots.find(s => s.id === slot.id);
           
           if (slotToUpdate) {
-            // Update in Firebase
+            
             const updates: { [key: string]: any } = {};
             updates[`harmonogram/${slotToUpdate.id}`] = {
               ...slotToUpdate,
@@ -363,7 +363,7 @@ export class ConsultationBookingComponent {
         }
       });
     } else {
-      // JSON Server - no changes needed
+      
       this.http.put(`http://localhost:3000/harmonogram/${slot.id}`, {
         ...slot,
         status: 'wolny',

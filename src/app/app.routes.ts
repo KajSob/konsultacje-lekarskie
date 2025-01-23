@@ -22,6 +22,6 @@ export const routes: Routes = [
     canActivate: [adminGuard],
     data: { requiresAuth: true }
   },
-  // Catch all other routes and redirect to home
+  
   { path: '**', redirectTo: '' }
 ];

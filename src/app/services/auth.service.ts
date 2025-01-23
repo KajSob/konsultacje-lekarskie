@@ -19,7 +19,7 @@ export class AuthService {
     private auth: Auth,
     private database: Database
   ) {
-    // Listen to auth state changes
+    
     user(this.auth).subscribe(user => {
       if (user) {
         this.getUserRole(user.email!).subscribe(role => {
@@ -38,7 +38,7 @@ export class AuthService {
           if (snapshot.exists()) {
             observer.next(snapshot.val().role);
           } else {
-            // Default role is patient
+            
             this.setUserRole(email, 'patient').then(() => {
               observer.next('patient');
             });
@@ -53,11 +53,11 @@ export class AuthService {
     return set(ref(this.database, `users/${this.emailToKey(email)}`), { role });
   }
 
-  // W AuthService
+
 register(email: string, password: string): Promise<void> {
   return createUserWithEmailAndPassword(this.auth, email, password)
     .then(() => {
-      // Jeśli to admin@gmail.com, ustaw rolę admin, w przeciwnym razie patient
+      
       const role = email === 'admin@gmail.com' ? 'admin' : 'patient';
       return this.setUserRole(email, role);
     });
@@ -80,7 +80,7 @@ register(email: string, password: string): Promise<void> {
       map(user => {
         if (!user) return false;
         switch (role) {
-          case 'patient': return true; // All logged users can do patient stuff
+          case 'patient': return true;
           case 'doctor': return ['doctor', 'admin'].includes(user.role);
           case 'admin': return user.role === 'admin';
           default: return false;

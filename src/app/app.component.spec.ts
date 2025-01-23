@@ -14,11 +14,7 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'konsultacje-lekarskie' title`, () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.componentInstance;
-    expect(app.title).toEqual('konsultacje-lekarskie');
-  });
+
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);

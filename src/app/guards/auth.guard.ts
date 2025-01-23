@@ -3,6 +3,9 @@ import { CanActivateFn, Router } from '@angular/router';
 import { AuthService } from '../services/auth.service';
 import { map, take } from 'rxjs/operators';
 
+export const authGuard: CanActivateFn = (route, state) => {
+  return true;
+};
 
 export const patientGuard: CanActivateFn = () => {
   const authService = inject(AuthService);

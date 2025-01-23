@@ -31,9 +31,9 @@
 
 .time-slots {
   display: grid;
-  grid-auto-rows: 60px; /* Każdy slot ma 60px wysokości */
-  overflow-y: auto; /* Pozwalamy na scroll jeśli potrzeba */
-  max-height: calc(100vh - 250px); /* Responsywna wysokość, odejmujemy miejsce na nagłówek i stopkę */
+  grid-auto-rows: 60px; 
+  overflow-y: auto; 
+  max-height: calc(100vh - 250px); 
 }
 
 .time-row {
@@ -51,35 +51,35 @@
 .slot {
   border-left: 1px solid #d9d9d9;
   position: relative;
-  height: 55px; /* Zmniejszamy z 60px na 55px */
-  padding: 2px; /* Dodajemy mały padding */
+  height: 55px; 
+  padding: 2px; 
 }
 .current-slot {
   background: rgba(255, 235, 59, 0.1);
 }
 
 .past-slot {
-  background: rgba(0, 0, 0, 0.05); /* Jaśniejsze tło dla minionych slotów */
+  background: rgba(0, 0, 0, 0.05); 
 }
 
 .appointment {
-  padding: 3px; /* Zmniejszamy padding */
-  margin: 1px; /* Zmniejszamy margin */
+  padding: 3px; 
+  margin: 1px; 
   border-radius: 3px;
   cursor: pointer;
-  min-height: 45px; /* Zmniejszamy minimalną wysokość */
-  height: calc(100% - 2px); /* Wysokość 100% minus marginesy */
+  min-height: 45px; 
+  height: calc(100% - 2px); 
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-sizing: border-box; /* Zapewnia że padding nie wpływa na rozmiar */
+  box-sizing: border-box;
 }
 
 .appointment-details {
   text-align: center;
-  font-size: 0.75em; /* Zmniejszamy czcionkę */
-  line-height: 1.2; /* Zmniejszamy wysokość linii */
-  overflow: hidden; /* Zapobiegamy wylewaniu się tekstu */
+  font-size: 0.75em; 
+  line-height: 1.2; 
+  overflow: hidden; 
 }
 
 .appointment.reserved .appointment-details {
@@ -96,19 +96,19 @@
 }
 
 .past-appointment {
-  opacity: 0.6; /* Przyciemnienie minionych wizyt */
-  background-color: #999 !important; /* Szary kolor dla minionych wizyt */
+  opacity: 0.6; 
+  background-color: #999 !important; 
 }
 
 .current-time-indicator {
   display: none;
 }
 .current-time-slot {
-  background-color: rgba(255, 64, 129, 0.1); /* Jasnoróżowe tło */
-  border: 2px solid #ff4081; /* Różowa ramka */
+  background-color: rgba(255, 64, 129, 0.1);
+  border: 2px solid #ff4081; 
 }
 
-/* Usuwamy responsywne style */
+
 @media (max-height: 800px) {
   .time-slots {
     max-height: none;
@@ -134,14 +134,14 @@
   white-space: pre-line !important;
   max-width: none !important;
   min-width: 300px !important;
-  max-height: none !important; /* Remove height limitation */
+  max-height: none !important; 
   font-size: 12px;
   line-height: 1.4;
   padding: 12px !important;
   word-wrap: break-word !important;
   box-sizing: border-box !important;
   margin: 8px !important;
-  overflow: visible !important; /* Ensure content is not cut */
+  overflow: visible !important;
 }
 
 ::ng-deep .mat-mdc-tooltip-panel {
@@ -192,17 +192,16 @@
 }
 
 .appointment.cancelled {
-  background-color: #ffcdd2 !important; /* Light red for cancelled appointments */
-  color: #b71c1c;
+  background-color: #ffcdd2 !important; 
   border: 1px solid #ef5350;
 }
 
-/* Style for cancelled appointments that were previously reserved */
+
 .appointment.cancelled.was-reserved {
   background-color: #ffcdd2 !important;
   color: #b71c1c;
   border: 1px solid #ef5350;
-  opacity: 0.9; /* Slightly more visible than regular cancelled */
+  opacity: 0.9; 
 }
 
 .appointment.cancelled.was-reserved .appointment-details {
@@ -211,7 +210,7 @@
 }
 
 .absence-day {
-  background-color: #ffebee !important; /* Very light red for absence days */
+  background-color: #ffebee !important; 
 }
 
 .absence-day .day-header {

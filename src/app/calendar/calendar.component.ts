@@ -45,14 +45,14 @@ export class CalendarComponent implements OnInit {
   private http = inject(HttpClient);
   private dialog = inject(MatDialog);
   private database = inject(Database);
-  public authService = inject(AuthService); // Change from private to public
+  public authService = inject(AuthService); 
   
   harmonogram: Harmonogram[] = [];
   weekDays: Date[] = [];
   timeSlots: string[] = [];
   currentWeek: number = 0;
   startHour: number = 8;
-  endHour: number = 14; // 6 hour window
+  endHour: number = 14; 
   currentTime: Date = new Date();
   currentTimePosition: number = 0;
   absences: AbsencjaZapis[] = [];
@@ -65,7 +65,7 @@ export class CalendarComponent implements OnInit {
     this.loadSchedule();
     this.loadAbsences();
     
-    // Dostosuj ilość wyświetlanych slotów na podstawie wysokości ekranu
+    
     this.adjustVisibleHours();
   }
   private showMessage(text: string) {
@@ -74,7 +74,7 @@ export class CalendarComponent implements OnInit {
     setTimeout(() => {
       this.messageVisible = false;
       this.message = '';
-    }, 3000); // Changed from 3000 to 5000 milliseconds (5 seconds)
+    }, 3000);
   }
 
   isCurrentDay(date: Date): boolean {
@@ -91,7 +91,7 @@ export class CalendarComponent implements OnInit {
     const currentHours = this.currentTime.getHours();
     const currentMinutes = this.currentTime.getMinutes();
     
-    // Sprawdź czy obecny czas mieści się w 30-minutowym slocie
+    
     const slotStartMinutes = hours * 60 + minutes;
     const currentTotalMinutes = currentHours * 60 + currentMinutes;
     
@@ -115,13 +115,13 @@ export class CalendarComponent implements OnInit {
 
   getSlotColor(slot: Harmonogram): string {
     if (slot.status === 'odwołany') {
-      return '#ffcdd2'; // Light red for cancelled slots
+      return '#ffcdd2'; 
     }
     if (slot.status !== 'zarezerwowany') return '';
     
     const slotDate = new Date(slot.data + 'T' + slot.godzina);
     if (slotDate < this.currentTime) {
-      return '#999999'; // Szary kolor dla minionych wizyt
+      return '#999999';
     }
     
     switch(slot.typKonsultacji) {
@@ -150,17 +150,17 @@ export class CalendarComponent implements OnInit {
 
   generateWeekDays() {
     const today = new Date();
-    const firstDayOfWeek = new Date(today); // Tworzymy nową instancję
+    const firstDayOfWeek = new Date(today); 
     
-    // Ustawiamy na początek tygodnia (poniedziałek)
+   
     firstDayOfWeek.setDate(today.getDate() - today.getDay() + 1);
     
-    // Dodajemy offset dla wybranego tygodnia
+    
     firstDayOfWeek.setDate(firstDayOfWeek.getDate() + (this.currentWeek * 7));
     
     this.weekDays = [];
     for (let i = 0; i < 7; i++) {
-      // Tworzymy nową instancję dla każdego dnia
+      
       const day = new Date(firstDayOfWeek);
       day.setDate(firstDayOfWeek.getDate() + i);
       this.weekDays.push(day);
@@ -169,7 +169,7 @@ export class CalendarComponent implements OnInit {
 
   generateTimeSlots() {
     this.timeSlots = [];
-    // Upewniamy się, że nie przekraczamy 24 godzin
+    
     const actualEndHour = Math.min(24, this.endHour);
     for (let hour = this.startHour; hour < actualEndHour; hour++) {
       this.timeSlots.push(`${String(Math.floor(hour)).padStart(2, '0')}:00`);
@@ -179,8 +179,8 @@ export class CalendarComponent implements OnInit {
 
 
   getSlotsForDayAndTime(date: Date, time: string): Harmonogram[] {
-    // Zmieniamy z toISOString() na toLocaleDateString()
-    const dateString = date.toLocaleDateString('en-CA'); // Format YYYY-MM-DD
+    
+    const dateString = date.toLocaleDateString('en-CA');
     return this.harmonogram.filter(slot => slot.data === dateString && slot.godzina === time);
   }
 
@@ -201,7 +201,7 @@ export class CalendarComponent implements OnInit {
   updateHours(event: any) {
     const newStartHour = parseFloat(event.target.value);
     
-    // Zwiększamy maksymalną godzinę początkową z 18 na 23
+    
     if (newStartHour > 23) {
       this.startHour = 23;
     } else {
@@ -218,10 +218,9 @@ export class CalendarComponent implements OnInit {
     const numberOfSlots = Math.min(12, Math.max(4, possibleSlots));
     const numberOfHours = Math.ceil(numberOfSlots / 2);
     
-    // Zmieniamy limit z 24 na 23.5 aby umożliwić slot 23:30
     this.endHour = Math.min(24, this.startHour + numberOfHours);
     
-    // Jeśli końcowa godzina przekracza 23.5, cofamy godzinę początkową
+    
     if (this.endHour >= 24) {
       this.startHour = 24 - numberOfHours;
     }
@@ -236,17 +235,17 @@ export class CalendarComponent implements OnInit {
   const footerHeight = 100;
   const slotHeight = 60;
   
-  // Oblicz ile slotów zmieści się na ekranie
+  
   const availableHeight = viewportHeight - headerHeight - footerHeight;
   const possibleSlots = Math.floor(availableHeight / slotHeight);
   
-  // Oblicz liczbę godzin (2 sloty na godzinę)
+  
   const numberOfHours = Math.ceil(possibleSlots / 2);
   
-  // Ustaw końcową godzinę na podstawie godziny startowej i dostępnej przestrzeni
+  
   this.endHour = Math.min(24, this.startHour + numberOfHours);
   
-  // Jeśli końcowa godzina przekracza 24, cofnij godzinę początkową
+  
   if (this.endHour >= 24) {
     this.startHour = 24 - numberOfHours;
     this.endHour = 24;
@@ -255,13 +254,13 @@ export class CalendarComponent implements OnInit {
   this.generateTimeSlots();
 }
   handleScroll(event: WheelEvent) {
-    event.preventDefault(); // Zapobiegaj domyślnemu scrollowaniu strony
+    event.preventDefault(); 
     
-    const scrollStep = 1; // Zmiana o 1 godzinę
-    if (event.deltaY > 0) { // Scroll w dół
+    const scrollStep = 1; 
+    if (event.deltaY > 0) { 
       const newStartHour = Math.min(23, this.startHour + scrollStep);
       this.updateHours({ target: { value: newStartHour } });
-    } else { // Scroll w górę
+    } else { 
       const newStartHour = Math.max(0, this.startHour - scrollStep);
       this.updateHours({ target: { value: newStartHour } });
     }
@@ -271,7 +270,7 @@ export class CalendarComponent implements OnInit {
   
   let content = `Status: ${slot.status}\n`;
   
-  // Show detailed info for both reserved and cancelled-reserved slots
+  
   if (slot.status === 'zarezerwowany' || (slot.status === 'odwołany' && slot.typKonsultacji)) {
     content += `
       Typ konsultacji: ${slot.typKonsultacji}
@@ -304,7 +303,7 @@ export class CalendarComponent implements OnInit {
   isAbsenceDay(date: Date): boolean {
   if (!this.absences || !date) return false;
   
-  // Konwertujemy datę do formatu YYYY-MM-DD dla poprawnego porównania
+ 
   const currentDate = new Date(date.getTime());
   currentDate.setHours(0, 0, 0, 0);
   const dateString = currentDate.toISOString().split('T')[0];
@@ -328,10 +327,10 @@ onSlotClick(slot: Harmonogram) {
         this.showMessage('Musisz być zalogowany jako pacjent aby anulować wizytę');
         return;
       }
-      // Show confirmation dialog before cancelling
+      
       if (confirm('Czy na pewno chcesz anulować tę rezerwację?')) {
         if (dataSource === 'firebase') {
-          // Firebase update
+         
           const updates: { [key: string]: any } = {};
           updates[`harmonogram/${slot.id}`] = {
             ...slot,
@@ -343,13 +342,13 @@ onSlotClick(slot: Harmonogram) {
 
           update(ref(this.database), updates)
             .then(() => {
-              this.loadSchedule(); // Refresh the calendar
+              this.loadSchedule();
             })
             .catch((error) => {
               console.error('Error cancelling reservation:', error);
             });
         } else {
-          // JSON Server update
+          
           const resetSlot = {
             ...slot,
             status: 'wolny',
@@ -361,7 +360,7 @@ onSlotClick(slot: Harmonogram) {
           this.http.put(`http://localhost:3000/harmonogram/${slot.id}`, resetSlot)
             .subscribe({
               next: () => {
-                this.loadSchedule(); // Refresh the calendar
+                this.loadSchedule(); 
               },
               error: (error) => {
                 console.error('Error cancelling reservation:', error);
@@ -376,7 +375,7 @@ onSlotClick(slot: Harmonogram) {
         this.showMessage('Musisz być zalogowany jako pacjent aby zarezerwować wizytę');
         return;
       }
-      // Booking dialog
+      
       const dialogRef = this.dialog.open(ConsultationBookingComponent, {
         width: '480px',
         maxHeight: '90vh',

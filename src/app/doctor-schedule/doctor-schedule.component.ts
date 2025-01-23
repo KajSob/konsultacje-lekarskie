@@ -147,7 +147,7 @@ export class DoctorScheduleComponent {
     setTimeout(() => {
       this.messageVisible = false;
       this.message = '';
-    }, 3000); // Changed from 3000 to 5000 milliseconds (5 seconds)
+    }, 3000); 
   }
 
   dodajPrzedzialCzasowyCykliczny() {
@@ -171,7 +171,7 @@ export class DoctorScheduleComponent {
   const startDate = new Date(this.cyklicznyHarmonogram.dataOd);
   const endDate = new Date(this.cyklicznyHarmonogram.dataDo);
   
-  // Sprawdzamy konflikty dla wybranych dni
+  
   const dateChecks: Observable<{date: Date, hasConflict: boolean}>[] = [];
   let currentDate = new Date(startDate);
 
@@ -189,21 +189,21 @@ export class DoctorScheduleComponent {
         )
       );
     }
-    // Właściwe przesunięcie daty
+    
     currentDate = new Date(currentDate.getTime() + (24 * 60 * 60 * 1000));
   }
 
-  // Czekamy na sprawdzenie wszystkich dat i pobieramy istniejące sloty
+  
   const source: Observable<Harmonogram[]> = dataSource === 'firebase' 
     ? from(get(ref(this.database, 'harmonogram'))).pipe(
         map((snapshot: DataSnapshot) => snapshot.val() ? Object.values(snapshot.val()) as Harmonogram[] : [])
       )
     : this.http.get<Harmonogram[]>('http://localhost:3000/harmonogram');
 
-  // Łączymy sprawdzenie absencji z pobraniem slotów
+  
   forkJoin([forkJoin(dateChecks), source]).subscribe({
     next: ([dateResults, existingSlots]) => {
-      // Filtrujemy tylko daty bez konfliktów
+     
       const validDates = dateResults
         .filter(result => !result.hasConflict)
         .map(result => result.date);
@@ -215,7 +215,7 @@ export class DoctorScheduleComponent {
 
       const slots: Harmonogram[] = [];
       
-      // Generujemy sloty tylko dla poprawnych dat
+      
       validDates.forEach(date => {
         for (let i = 0; i < this.cyklicznyHarmonogram.godzinyOd.length; i++) {
           const newDate = new Date(date);
@@ -225,7 +225,7 @@ export class DoctorScheduleComponent {
             this.cyklicznyHarmonogram.godzinyDo[i]
           ).map(slot => ({
             ...slot,
-            data: newDate.toLocaleDateString('en-CA') // Format YYYY-MM-DD
+            data: newDate.toLocaleDateString('en-CA') 
           }));
           
           const uniqueSlots = newSlots.filter(newSlot => 
@@ -240,7 +240,7 @@ export class DoctorScheduleComponent {
         return;
       }
 
-      // Zapis do odpowiedniego źródła
+      
       if (dataSource === 'firebase') {
         const updates: { [key: string]: any } = {};
         slots.forEach(slot => {
@@ -284,7 +284,7 @@ export class DoctorScheduleComponent {
   zapiszTerminJednorazowy() {
   const checkDate = new Date(this.jednorazowyTermin.data);
   
-  // Najpierw sprawdź konflikty z absencjami
+  
   this.checkAbsenceConflict(checkDate).subscribe({
     next: (hasConflict) => {
       if (hasConflict) {
@@ -292,7 +292,7 @@ export class DoctorScheduleComponent {
         return;
       }
 
-      // Jeśli nie ma konfliktu, kontynuuj dodawanie terminów
+      
       const dataSource = localStorage.getItem('dataSource');
       const source: Observable<Harmonogram[]> = dataSource === 'firebase' 
         ? from(get(ref(this.database, 'harmonogram'))).pipe(
@@ -358,7 +358,7 @@ export class DoctorScheduleComponent {
   zapiszAbsencje() {
   const dataSource = localStorage.getItem('dataSource');
   
-  // Pobierz dane z odpowiedniego źródła
+  
   const source: Observable<Harmonogram[]> = dataSource === 'firebase' 
     ? from(get(ref(this.database, 'harmonogram'))).pipe(
         map((snapshot: DataSnapshot) => snapshot.val() ? Object.values(snapshot.val()) : [])
