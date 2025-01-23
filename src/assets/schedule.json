@@ -5171,15 +5171,10 @@
       "id": "0f07",
       "data": "2025-01-24",
       "godzina": "11:00",
-      "status": "zarezerwowany",
-      "typKonsultacji": "badanie",
-      "pacjent": {
-        "imie": "Janek",
-        "nazwisko": "Test",
-        "plec": "mężczyzna",
-        "wiek": 0
-      },
-      "informacje": "ryzz"
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
     },
     {
       "id": "41a9",
