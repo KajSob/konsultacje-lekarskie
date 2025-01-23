@@ -1,11 +1,13 @@
-import { MatIconModule } from '@angular/material/icon';
+import { Component, OnInit, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { RouterModule } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { Database, ref, update } from '@angular/fire/database';
 import { ConsultationBookingComponent } from '../consultation-booking/consultation-booking.component';
+import { DataSourceService } from '../services/data-source.service';
+
 
 interface Pacjent {
   imie: string;
@@ -36,9 +38,14 @@ interface AbsencjaZapis {
   templateUrl: './calendar.component.html',
   styleUrls: ['./calendar.component.css'],
   standalone: true,
-  imports: [CommonModule, HttpClientModule, MatTooltipModule,RouterModule, MatDialogModule]
+  imports: [CommonModule, HttpClientModule, MatTooltipModule, RouterModule, MatDialogModule]
 })
 export class CalendarComponent implements OnInit {
+  private dataService = inject(DataSourceService);
+  private http = inject(HttpClient);
+  private dialog = inject(MatDialog);
+  private database = inject(Database);
+  
   harmonogram: Harmonogram[] = [];
   weekDays: Date[] = [];
   timeSlots: string[] = [];
@@ -49,20 +56,6 @@ export class CalendarComponent implements OnInit {
   currentTimePosition: number = 0;
   absences: AbsencjaZapis[] = [];
   
-  constructor(private http: HttpClient, private dialog: MatDialog) {
-    // Aktualizuj co minutę
-    setInterval(() => {
-      this.currentTime = new Date();
-      this.adjustVisibleHours();
-    }, 60000);
-
-    // Nasłuchuj zmiany rozmiaru okna
-    window.addEventListener('resize', () => {
-      this.adjustVisibleHours();
-    });
-  }
-
-
   ngOnInit(): void {
     this.generateWeekDays();
     this.generateTimeSlots();
@@ -131,26 +124,17 @@ export class CalendarComponent implements OnInit {
   }
 
   loadSchedule() {
-    this.http.get<Harmonogram[]>('http://localhost:3000/harmonogram').subscribe(data => {
-      console.log('Data loaded', data);
+    this.dataService.getHarmonogram().subscribe(data => {
       this.harmonogram = data;
-    }, error => {
-      console.error('Error loading data', error);
+      this.generateWeekDays();
     });
   }
 
   loadAbsences() {
-    this.http.get<AbsencjaZapis[]>('http://localhost:3000/absencje')
-      .subscribe({
-        next: (absences) => {
-          this.absences = absences;
-          // Odświeżamy widok po załadowaniu absencji
-          this.generateWeekDays();
-        },
-        error: (error) => {
-          console.error('Error loading absences:', error);
-        }
-      });
+    this.dataService.getAbsences().subscribe(absences => {
+      this.absences = absences;
+      this.generateWeekDays();
+    });
   }
 
   generateWeekDays() {
@@ -324,30 +308,53 @@ export class CalendarComponent implements OnInit {
   });
 }
 
-  onSlotClick(slot: Harmonogram) {
+onSlotClick(slot: Harmonogram) {
+  const dataSource = localStorage.getItem('dataSource');
+  
   if (slot.status === 'zarezerwowany') {
     // Show confirmation dialog before cancelling
     if (confirm('Czy na pewno chcesz anulować tę rezerwację?')) {
-      const resetSlot = {
-        ...slot,
-        status: 'wolny',
-        typKonsultacji: null,
-        pacjent: null,
-        informacje: null
-      };
+      if (dataSource === 'firebase') {
+        // Firebase update
+        const updates: { [key: string]: any } = {};
+        updates[`harmonogram/${slot.id}`] = {
+          ...slot,
+          status: 'wolny',
+          typKonsultacji: null,
+          pacjent: null,
+          informacje: null
+        };
 
-      this.http.put(`http://localhost:3000/harmonogram/${slot.id}`, resetSlot)
-        .subscribe({
-          next: () => {
+        update(ref(this.database), updates)
+          .then(() => {
             this.loadSchedule(); // Refresh the calendar
-          },
-          error: (error) => {
+          })
+          .catch((error) => {
             console.error('Error cancelling reservation:', error);
-          }
-        });
+          });
+      } else {
+        // JSON Server update
+        const resetSlot = {
+          ...slot,
+          status: 'wolny',
+          typKonsultacji: null,
+          pacjent: null,
+          informacje: null
+        };
+
+        this.http.put(`http://localhost:3000/harmonogram/${slot.id}`, resetSlot)
+          .subscribe({
+            next: () => {
+              this.loadSchedule(); // Refresh the calendar
+            },
+            error: (error) => {
+              console.error('Error cancelling reservation:', error);
+            }
+          });
+      }
     }
   } else if (slot.status === 'wolny') {
-    // Existing booking dialog logic
+    // Booking dialog
     const dialogRef = this.dialog.open(ConsultationBookingComponent, {
       width: '480px',
       maxHeight: '90vh',

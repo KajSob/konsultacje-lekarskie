@@ -3,7 +3,10 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
-import { concat, forkJoin, switchMap, tap, toArray } from 'rxjs';
+import { concat, from, Observable, toArray, forkJoin } from 'rxjs';
+import { map, switchMap } from 'rxjs/operators';
+import { Database, ref, set, update, get, DataSnapshot } from '@angular/fire/database';
+import { DataSourceService } from '../services/data-source.service';
 
 interface Harmonogram {
   data: string;
@@ -44,12 +47,7 @@ interface AbsencjaZapis {
 @Component({
   selector: 'app-doctor-schedule',
   standalone: true,
-  imports: [
-    CommonModule,
-    FormsModule,
-    RouterModule,
-    HttpClientModule
-  ],
+  imports: [CommonModule, FormsModule, RouterModule, HttpClientModule],
   templateUrl: './doctor-schedule.component.html',
   styleUrls: ['./doctor-schedule.component.css']
 })
@@ -84,20 +82,36 @@ export class DoctorScheduleComponent {
   messageVisible = false;
   message = '';
 
-  constructor(private http: HttpClient) {}
+  constructor(
+    private http: HttpClient,
+    private database: Database,
+    private dataService: DataSourceService
+  ) {}
 
-  private checkAbsenceConflict(date: Date): Promise<boolean> {
-    return this.http.get<AbsencjaZapis[]>('http://localhost:3000/absencje')
-      .toPromise()
-      .then(absencje => {
-        if (!absencje) return false;
+  private checkAbsenceConflict(date: Date): Observable<boolean> {
+    const dataSource = localStorage.getItem('dataSource');
+    
+    const source = dataSource === 'firebase'
+      ? from(get(ref(this.database, 'absencje'))).pipe(
+          map((snapshot: DataSnapshot) => snapshot.val() ? Object.values(snapshot.val()) as AbsencjaZapis[] : [])
+        )
+      : this.http.get<AbsencjaZapis[]>('http://localhost:3000/absencje');
+  
+    return source.pipe(
+      map((absences: AbsencjaZapis[]) => {
+        const checkDate = new Date(date);
+        checkDate.setHours(0, 0, 0, 0);
         
-        return absencje.some(absencja => {
-          const absencjaOd = new Date(absencja.dataOd);
-          const absencjaDo = new Date(absencja.dataDo);
-          return date >= absencjaOd && date <= absencjaDo;
+        return absences.some((absence: AbsencjaZapis) => {
+          const absenceStart = new Date(absence.dataOd);
+          const absenceEnd = new Date(absence.dataDo);
+          absenceStart.setHours(0, 0, 0, 0);
+          absenceEnd.setHours(0, 0, 0, 0);
+          
+          return checkDate >= absenceStart && checkDate <= absenceEnd;
         });
-      });
+      })
+    );
   }
 
   private generateSlots(date: Date, startTime: string, endTime: string): Harmonogram[] {
@@ -153,152 +167,274 @@ export class DoctorScheduleComponent {
   }
 
   zapiszHarmonogramCykliczny() {
-    this.http.get<Harmonogram[]>('http://localhost:3000/harmonogram').pipe(
-      switchMap(existingSlots => {
-        const slots: Harmonogram[] = [];
-        const startDate = new Date(this.cyklicznyHarmonogram.dataOd);
-        const endDate = new Date(this.cyklicznyHarmonogram.dataDo);
+  const dataSource = localStorage.getItem('dataSource');
+  const startDate = new Date(this.cyklicznyHarmonogram.dataOd);
+  const endDate = new Date(this.cyklicznyHarmonogram.dataDo);
+  
+  // Sprawdzamy konflikty dla wybranych dni
+  const dateChecks: Observable<{date: Date, hasConflict: boolean}>[] = [];
+  let currentDate = new Date(startDate);
 
-        for (let date = startDate; date <= endDate; date.setDate(date.getDate() + 1)) {
-          const dayIndex = date.getDay() === 0 ? 6 : date.getDay() - 1;
+  while (currentDate <= endDate) {
+    const dayIndex = currentDate.getDay() === 0 ? 6 : currentDate.getDay() - 1;
+    
+    if (this.cyklicznyHarmonogram.dniTygodnia[dayIndex]) {
+      const checkDate = new Date(currentDate);
+      dateChecks.push(
+        this.checkAbsenceConflict(checkDate).pipe(
+          map(hasConflict => ({
+            date: new Date(checkDate),
+            hasConflict
+          }))
+        )
+      );
+    }
+    // Właściwe przesunięcie daty
+    currentDate = new Date(currentDate.getTime() + (24 * 60 * 60 * 1000));
+  }
+
+  // Czekamy na sprawdzenie wszystkich dat i pobieramy istniejące sloty
+  const source: Observable<Harmonogram[]> = dataSource === 'firebase' 
+    ? from(get(ref(this.database, 'harmonogram'))).pipe(
+        map((snapshot: DataSnapshot) => snapshot.val() ? Object.values(snapshot.val()) as Harmonogram[] : [])
+      )
+    : this.http.get<Harmonogram[]>('http://localhost:3000/harmonogram');
+
+  // Łączymy sprawdzenie absencji z pobraniem slotów
+  forkJoin([forkJoin(dateChecks), source]).subscribe({
+    next: ([dateResults, existingSlots]) => {
+      // Filtrujemy tylko daty bez konfliktów
+      const validDates = dateResults
+        .filter(result => !result.hasConflict)
+        .map(result => result.date);
+
+      if (validDates.length === 0) {
+        this.showMessage('Wszystkie wybrane terminy kolidują z absencjami');
+        return;
+      }
+
+      const slots: Harmonogram[] = [];
+      
+      // Generujemy sloty tylko dla poprawnych dat
+      validDates.forEach(date => {
+        for (let i = 0; i < this.cyklicznyHarmonogram.godzinyOd.length; i++) {
+          const newDate = new Date(date);
+          const newSlots = this.generateSlots(
+            newDate,
+            this.cyklicznyHarmonogram.godzinyOd[i],
+            this.cyklicznyHarmonogram.godzinyDo[i]
+          ).map(slot => ({
+            ...slot,
+            data: newDate.toLocaleDateString('en-CA') // Format YYYY-MM-DD
+          }));
           
-          if (this.cyklicznyHarmonogram.dniTygodnia[dayIndex]) {
-            for (let i = 0; i < this.cyklicznyHarmonogram.godzinyOd.length; i++) {
-              const newSlots = this.generateSlots(
-                new Date(date),
-                this.cyklicznyHarmonogram.godzinyOd[i],
-                this.cyklicznyHarmonogram.godzinyDo[i]
-              );
-              
-              const uniqueSlots = newSlots.filter(newSlot => 
-                !this.checkIfSlotExists(newSlot, existingSlots)
-              );
-              
-              slots.push(...uniqueSlots);
-            }
-          }
+          const uniqueSlots = newSlots.filter(newSlot => 
+            !this.checkIfSlotExists(newSlot, existingSlots)
+          );
+          slots.push(...uniqueSlots);
         }
+      });
 
-        if (slots.length === 0) {
-          throw new Error('Wszystkie terminy już istnieją w harmonogramie');
-        }
+      if (slots.length === 0) {
+        this.showMessage('Wszystkie terminy już istnieją w harmonogramie');
+        return;
+      }
 
+      // Zapis do odpowiedniego źródła
+      if (dataSource === 'firebase') {
+        const updates: { [key: string]: any } = {};
+        slots.forEach(slot => {
+          const slotId = Math.random().toString(36).substr(2, 4);
+          updates[`harmonogram/${slotId}`] = { ...slot, id: slotId };
+        });
+
+        update(ref(this.database), updates)
+          .then(() => {
+            this.showMessage(`Pomyślnie zapisano ${slots.length} nowych terminów`);
+          })
+          .catch(err => {
+            this.showMessage('Błąd podczas zapisywania harmonogramu');
+            console.error('Error:', err);
+          });
+      } else {
         const saveObservables = slots.map(slot => 
           this.http.post('http://localhost:3000/harmonogram', slot)
         );
 
-        return concat(...saveObservables).pipe(
-          toArray(),
-          tap(() => {
+        concat(...saveObservables).pipe(
+          toArray()
+        ).subscribe({
+          next: () => {
             this.showMessage(`Pomyślnie zapisano ${slots.length} nowych terminów`);
-
-          })
-        );
-      })
-    ).subscribe({
-      error: (err) => {
-        this.showMessage(err.message || 'Błąd podczas zapisywania harmonogramu');
-        console.error('Error:', err);
+          },
+          error: (err) => {
+            this.showMessage('Błąd podczas zapisywania harmonogramu');
+            console.error('Error:', err);
+          }
+        });
       }
-    });
-  }
+    },
+    error: (err) => {
+      this.showMessage('Błąd podczas sprawdzania konfliktów');
+      console.error('Error:', err);
+    }
+  });
+}
 
   zapiszTerminJednorazowy() {
-    this.http.get<Harmonogram[]>('http://localhost:3000/harmonogram').pipe(
-      switchMap(existingSlots => {
-        const newSlots = this.generateSlots(
-          new Date(this.jednorazowyTermin.data),
-          this.jednorazowyTermin.godzinaOd,
-          this.jednorazowyTermin.godzinaDo
-        );
-
-        const uniqueSlots = newSlots.filter(newSlot => 
-          !this.checkIfSlotExists(newSlot, existingSlots)
-        );
-
-        if (uniqueSlots.length === 0) {
-          throw new Error('Wszystkie terminy już istnieją w harmonogramie');
-        }
-
-        const saveObservables = uniqueSlots.map(slot => 
-          this.http.post('http://localhost:3000/harmonogram', slot)
-        );
-
-        return concat(...saveObservables).pipe(
-          toArray(),
-          tap(() => {
-            this.showMessage(`Pomyślnie zapisano ${uniqueSlots.length} nowych terminów`);
-          })
-        );
-      })
-    ).subscribe({
-      error: (err) => {
-        this.showMessage(err.message || 'Błąd podczas zapisywania terminu');
-        console.error('Error:', err);
+  const checkDate = new Date(this.jednorazowyTermin.data);
+  
+  // Najpierw sprawdź konflikty z absencjami
+  this.checkAbsenceConflict(checkDate).subscribe({
+    next: (hasConflict) => {
+      if (hasConflict) {
+        this.showMessage('Nie można dodać terminów - wybrana data koliduje z absencją');
+        return;
       }
-    });
-  }
 
-  zapiszAbsencje() {
-    this.http.get<Harmonogram[]>('http://localhost:3000/harmonogram')
-      .pipe(
-        switchMap(current => {
-          const startDate = new Date(this.absencja.dataOd);
-          const endDate = new Date(this.absencja.dataDo);
-          
-          startDate.setHours(0, 0, 0, 0);
-          endDate.setHours(23, 59, 59, 999);
-          
-          // Find ALL slots in date range using string comparison for more reliability
-          const slotsToUpdate = current.filter(slot => {
-            const slotDate = new Date(slot.data);
-            slotDate.setHours(0, 0, 0, 0);
-            return slotDate >= startDate && slotDate <= endDate;
-          });
+      // Jeśli nie ma konfliktu, kontynuuj dodawanie terminów
+      const dataSource = localStorage.getItem('dataSource');
+      const source: Observable<Harmonogram[]> = dataSource === 'firebase' 
+        ? from(get(ref(this.database, 'harmonogram'))).pipe(
+            map((snapshot: DataSnapshot) => {
+              const data = snapshot.val();
+              return data ? Object.values(data) as Harmonogram[] : [];
+            })
+          )
+        : this.http.get<Harmonogram[]>('http://localhost:3000/harmonogram');
 
-          if (slotsToUpdate.length === 0) {
-            throw new Error('Brak terminów do aktualizacji w wybranym zakresie');
+      source.subscribe({
+        next: (existingSlots: Harmonogram[]) => {
+          const newSlots = this.generateSlots(
+            new Date(this.jednorazowyTermin.data),
+            this.jednorazowyTermin.godzinaOd,
+            this.jednorazowyTermin.godzinaDo
+          );
+
+          const uniqueSlots = newSlots.filter(newSlot => 
+            !this.checkIfSlotExists(newSlot, existingSlots)
+          );
+
+          if (uniqueSlots.length === 0) {
+            this.showMessage('Wszystkie terminy już istnieją w harmonogramie');
+            return;
           }
 
-          // Save absence record
-          const absencjaZapis: AbsencjaZapis = {
-            dataOd: startDate.toLocaleDateString('en-CA'),
-            dataDo: endDate.toLocaleDateString('en-CA'),
-            powod: this.absencja.powod
-          };
+          if (dataSource === 'firebase') {
+            uniqueSlots.forEach(slot => {
+              const slotWithId = { ...slot, id: Math.random().toString(36).substr(2, 4) };
+              set(ref(this.database, `harmonogram/${slotWithId.id}`), slotWithId)
+                .then(() => {
+                  this.showMessage(`Pomyślnie zapisano ${uniqueSlots.length} nowych terminów`);
+                })
+                .catch(err => {
+                  this.showMessage('Błąd podczas zapisywania terminu');
+                  console.error('Error:', err);
+                });
+            });
+          } else {
+            const saveObservables = uniqueSlots.map(slot => 
+              this.http.post('http://localhost:3000/harmonogram', slot)
+            );
 
-          // Create update observables
-          const updateObservables = slotsToUpdate.map(slot => 
-            this.http.put(`http://localhost:3000/harmonogram/${slot.id}`, {
-              ...slot,
-              status: 'odwołany',
-              informacje: slot.informacje 
-                ? `${slot.informacje}\nAbsencja: ${this.absencja.powod}`
-                : `Absencja: ${this.absencja.powod}`,
-              typKonsultacji: slot.typKonsultacji,
-              pacjent: slot.pacjent
-            })
-          );
-
-          // Add absence record observable
-          const absenceObservable = this.http.post('http://localhost:3000/absencje', absencjaZapis);
-          
-          // Combine all observables and execute them in sequence
-          return concat(
-            ...updateObservables,
-            absenceObservable
-          ).pipe(
-            toArray(),
-            tap(() => {
-              this.showMessage(`Pomyślnie zapisano absencję i zaktualizowano ${slotsToUpdate.length} terminów`);
-            })
-          );
-        })
-      ).subscribe({
-        error: (err) => {
-          this.showMessage(err.message || 'Błąd podczas zapisywania absencji');
-          console.error('Error:', err);
+            concat(...saveObservables).pipe(
+              toArray()
+            ).subscribe({
+              next: () => {
+                this.showMessage(`Pomyślnie zapisano ${uniqueSlots.length} nowych terminów`);
+              },
+              error: (err) => {
+                this.showMessage('Błąd podczas zapisywania terminu');
+                console.error('Error:', err);
+              }
+            });
+          }
         }
       });
-  }
+    }
+  });
+}
+
+  zapiszAbsencje() {
+  const dataSource = localStorage.getItem('dataSource');
+  
+  // Pobierz dane z odpowiedniego źródła
+  const source: Observable<Harmonogram[]> = dataSource === 'firebase' 
+    ? from(get(ref(this.database, 'harmonogram'))).pipe(
+        map((snapshot: DataSnapshot) => snapshot.val() ? Object.values(snapshot.val()) : [])
+      )
+    : this.http.get<Harmonogram[]>('http://localhost:3000/harmonogram');
+
+  source.subscribe({
+    next: (current: Harmonogram[]) => {
+      const startDate = new Date(this.absencja.dataOd);
+      const endDate = new Date(this.absencja.dataDo);
+      
+      startDate.setHours(0, 0, 0, 0);
+      endDate.setHours(23, 59, 59, 999);
+      
+      const slotsToUpdate = current.filter((slot: Harmonogram) => {
+        const slotDate = new Date(slot.data);
+        slotDate.setHours(0, 0, 0, 0);
+        return slotDate >= startDate && slotDate <= endDate;
+      });
+
+
+      const absencjaId = Math.random().toString(36).substr(2, 4);
+      const absencjaZapis: AbsencjaZapis = {
+        id: absencjaId,
+        dataOd: startDate.toLocaleDateString('en-CA'),
+        dataDo: endDate.toLocaleDateString('en-CA'),
+        powod: this.absencja.powod
+      };
+
+      if (dataSource === 'firebase') {
+        const updates: { [key: string]: any } = {};
+        
+        slotsToUpdate.forEach((slot: Harmonogram) => {
+          updates[`harmonogram/${slot.id}`] = {
+            ...slot,
+            status: 'odwołany',
+            informacje: `Absencja: ${this.absencja.powod}`
+          };
+        });
+        
+        updates[`absencje/${absencjaId}`] = absencjaZapis;
+
+        update(ref(this.database), updates)
+          .then(() => {
+            this.showMessage(`Pomyślnie zapisano absencję i zaktualizowano ${slotsToUpdate.length} terminów`);
+            window.location.reload();
+          })
+          .catch(err => {
+            this.showMessage('Błąd podczas zapisywania absencji');
+            console.error('Error:', err);
+          });
+      } else {
+        const updateObservables = slotsToUpdate.map((slot: Harmonogram) => 
+          this.http.put(`http://localhost:3000/harmonogram/${slot.id}`, {
+            ...slot,
+            status: 'odwołany',
+            informacje: `Absencja: ${this.absencja.powod}`
+          })
+        );
+
+        const absenceObservable = this.http.post('http://localhost:3000/absencje', absencjaZapis);
+        
+        concat(...updateObservables, absenceObservable).pipe(
+          toArray()
+        ).subscribe({
+          next: () => {
+            this.showMessage(`Pomyślnie zapisano absencję i zaktualizowano ${slotsToUpdate.length} terminów`);
+            window.location.reload();
+          },
+          error: (err) => {
+            this.showMessage('Błąd podczas zapisywania absencji');
+            console.error('Error:', err);
+          }
+        });
+      }
+    }
+  });
+}
 }
