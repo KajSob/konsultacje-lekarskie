@@ -1,1 +1,9 @@
+<div class="header">
+  <div class="left-section">
+    <app-auth-header></app-auth-header>
+    <button (click)="toggleDataSource()">
+      {{ (dataService.getDataSource() | async) === 'firebase' ? 'Przełącz na JSON' : 'Przełącz na Firebase' }}
+    </button>
+  </div>
+</div>
 <router-outlet></router-outlet>

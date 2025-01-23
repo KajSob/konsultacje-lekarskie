@@ -7,7 +7,7 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { Database, ref, update } from '@angular/fire/database';
 import { ConsultationBookingComponent } from '../consultation-booking/consultation-booking.component';
 import { DataSourceService } from '../services/data-source.service';
-
+import { AuthService } from '../services/auth.service';
 
 interface Pacjent {
   imie: string;
@@ -45,6 +45,7 @@ export class CalendarComponent implements OnInit {
   private http = inject(HttpClient);
   private dialog = inject(MatDialog);
   private database = inject(Database);
+  public authService = inject(AuthService); // Change from private to public
   
   harmonogram: Harmonogram[] = [];
   weekDays: Date[] = [];
@@ -55,7 +56,9 @@ export class CalendarComponent implements OnInit {
   currentTime: Date = new Date();
   currentTimePosition: number = 0;
   absences: AbsencjaZapis[] = [];
-  
+
+  messageVisible = false;
+  message = '';  
   ngOnInit(): void {
     this.generateWeekDays();
     this.generateTimeSlots();
@@ -64,6 +67,14 @@ export class CalendarComponent implements OnInit {
     
     // Dostosuj ilość wyświetlanych slotów na podstawie wysokości ekranu
     this.adjustVisibleHours();
+  }
+  private showMessage(text: string) {
+    this.message = text;
+    this.messageVisible = true;
+    setTimeout(() => {
+      this.messageVisible = false;
+      this.message = '';
+    }, 3000); // Changed from 3000 to 5000 milliseconds (5 seconds)
   }
 
   isCurrentDay(date: Date): boolean {
@@ -312,60 +323,72 @@ onSlotClick(slot: Harmonogram) {
   const dataSource = localStorage.getItem('dataSource');
   
   if (slot.status === 'zarezerwowany') {
-    // Show confirmation dialog before cancelling
-    if (confirm('Czy na pewno chcesz anulować tę rezerwację?')) {
-      if (dataSource === 'firebase') {
-        // Firebase update
-        const updates: { [key: string]: any } = {};
-        updates[`harmonogram/${slot.id}`] = {
-          ...slot,
-          status: 'wolny',
-          typKonsultacji: null,
-          pacjent: null,
-          informacje: null
-        };
+    this.authService.hasRole('patient').subscribe(canCancel => {
+      if (!canCancel) {
+        this.showMessage('Musisz być zalogowany jako pacjent aby anulować wizytę');
+        return;
+      }
+      // Show confirmation dialog before cancelling
+      if (confirm('Czy na pewno chcesz anulować tę rezerwację?')) {
+        if (dataSource === 'firebase') {
+          // Firebase update
+          const updates: { [key: string]: any } = {};
+          updates[`harmonogram/${slot.id}`] = {
+            ...slot,
+            status: 'wolny',
+            typKonsultacji: null,
+            pacjent: null,
+            informacje: null
+          };
 
-        update(ref(this.database), updates)
-          .then(() => {
-            this.loadSchedule(); // Refresh the calendar
-          })
-          .catch((error) => {
-            console.error('Error cancelling reservation:', error);
-          });
-      } else {
-        // JSON Server update
-        const resetSlot = {
-          ...slot,
-          status: 'wolny',
-          typKonsultacji: null,
-          pacjent: null,
-          informacje: null
-        };
-
-        this.http.put(`http://localhost:3000/harmonogram/${slot.id}`, resetSlot)
-          .subscribe({
-            next: () => {
+          update(ref(this.database), updates)
+            .then(() => {
               this.loadSchedule(); // Refresh the calendar
-            },
-            error: (error) => {
+            })
+            .catch((error) => {
               console.error('Error cancelling reservation:', error);
-            }
-          });
-      }
-    }
-  } else if (slot.status === 'wolny') {
-    // Booking dialog
-    const dialogRef = this.dialog.open(ConsultationBookingComponent, {
-      width: '480px',
-      maxHeight: '90vh',
-      data: { slot: slot },
-      panelClass: 'booking-dialog'
-    });
+            });
+        } else {
+          // JSON Server update
+          const resetSlot = {
+            ...slot,
+            status: 'wolny',
+            typKonsultacji: null,
+            pacjent: null,
+            informacje: null
+          };
 
-    dialogRef.afterClosed().subscribe(result => {
-      if (result) {
-        this.loadSchedule();
+          this.http.put(`http://localhost:3000/harmonogram/${slot.id}`, resetSlot)
+            .subscribe({
+              next: () => {
+                this.loadSchedule(); // Refresh the calendar
+              },
+              error: (error) => {
+                console.error('Error cancelling reservation:', error);
+              }
+            });
+        }
       }
+    });
+  } else if (slot.status === 'wolny') {
+    this.authService.hasRole('patient').subscribe(canBook => {
+      if (!canBook) {
+        this.showMessage('Musisz być zalogowany jako pacjent aby zarezerwować wizytę');
+        return;
+      }
+      // Booking dialog
+      const dialogRef = this.dialog.open(ConsultationBookingComponent, {
+        width: '480px',
+        maxHeight: '90vh',
+        data: { slot: slot },
+        panelClass: 'booking-dialog'
+      });
+
+      dialogRef.afterClosed().subscribe(result => {
+        if (result) {
+          this.loadSchedule();
+        }
+      });
     });
   }
 }

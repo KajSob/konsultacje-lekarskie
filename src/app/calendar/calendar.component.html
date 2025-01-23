@@ -68,7 +68,9 @@
              (input)="updateHours($event)">
       {{ startHour | number:'2.0-0' }}:00 - {{ endHour | number:'2.0-0' }}:00
     </label>
-    <button routerLink="/schedule">Zarządzaj harmonogramem</button>
+    <button *ngIf="authService.hasRole('doctor') | async" routerLink="/schedule">
+      Zarządzaj harmonogramem
+    </button>
   </div>
   
   

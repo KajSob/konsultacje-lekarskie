@@ -5038,10 +5038,15 @@
       "id": "0a06",
       "data": "2025-01-24",
       "godzina": "05:00",
-      "status": "wolny",
-      "typKonsultacji": null,
-      "pacjent": null,
-      "informacje": null
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta kontrolna",
+      "pacjent": {
+        "imie": "Lilia",
+        "nazwisko": "Wodna",
+        "plec": "kobieta",
+        "wiek": 2
+      },
+      "informacje": "zwiędła"
     },
     {
       "id": "fe18",
@@ -8475,15 +8480,10 @@
       "id": "f1de",
       "data": "2025-01-24",
       "godzina": "12:30",
-      "status": "zarezerwowany",
-      "typKonsultacji": "wizyta nagła",
-      "pacjent": {
-        "imie": "Tomasz",
-        "nazwisko": "Golec",
-        "plec": "mężczyzna",
-        "wiek": 24
-      },
-      "informacje": "brak głosu"
+      "status": "wolny",
+      "typKonsultacji": null,
+      "pacjent": null,
+      "informacje": null
     },
     {
       "id": "f76a",
@@ -9820,10 +9820,15 @@
       "id": "ac2f",
       "data": "2025-01-24",
       "godzina": "04:30",
-      "status": "wolny",
-      "typKonsultacji": null,
-      "pacjent": null,
-      "informacje": null
+      "status": "zarezerwowany",
+      "typKonsultacji": "wizyta kontrolna",
+      "pacjent": {
+        "imie": "Lilia",
+        "nazwisko": "Wodna",
+        "plec": "kobieta",
+        "wiek": 2
+      },
+      "informacje": "zwiędła"
     },
     {
       "id": "5066",
@@ -9838,10 +9843,15 @@
       "id": "9f51",
       "data": "2025-01-24",
       "godzina": "02:00",
-      "status": "wolny",
-      "typKonsultacji": null,
-      "pacjent": null,
-      "informacje": null
+      "status": "zarezerwowany",
+      "typKonsultacji": "pierwsza wizyta",
+      "pacjent": {
+        "imie": "Helena",
+        "nazwisko": "Jak",
+        "plec": "kobieta",
+        "wiek": 35
+      },
+      "informacje": "kopnięta przez jaka"
     },
     {
       "id": "2232",
